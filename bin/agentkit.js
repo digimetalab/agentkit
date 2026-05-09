@@ -17,6 +17,7 @@ const installCommand = require('../lib/commands/install');
 const searchCommand = require('../lib/commands/search');
 const syncCommand = require('../lib/commands/sync');
 const platformCommand = require('../lib/commands/platform');
+const workflowCommand = require('../lib/commands/workflow');
 
 // Shared banner function - ONLY ONE ASCII ART
 const showBanner = (includeLinks = false) => {
@@ -159,6 +160,17 @@ platform
     .description('Sync all detected platforms')
     .action(async () => {
         await platformCommand.sync();
+    });
+
+const workflow = program
+    .command('workflow')
+    .description('Manage skill workflow proxies');
+
+workflow
+    .command('proxy')
+    .description('Generate platform-specific proxy files for all installed skills')
+    .action(async (options) => {
+        await workflowCommand.proxy(options);
     });
 
 program.parse(process.argv);

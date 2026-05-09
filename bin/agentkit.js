@@ -16,6 +16,7 @@ const doctorCommand = require('../lib/commands/doctor');
 const installCommand = require('../lib/commands/install');
 const searchCommand = require('../lib/commands/search');
 const syncCommand = require('../lib/commands/sync');
+const platformCommand = require('../lib/commands/platform');
 
 // Shared banner function - ONLY ONE ASCII ART
 const showBanner = (includeLinks = false) => {
@@ -133,6 +134,31 @@ program
     .option('--out <path>', 'Output directory', './.agent/skills')
     .action(async (options) => {
         await syncCommand(options);
+    });
+
+const platform = program
+    .command('platform')
+    .description('Manage agent platform configurations');
+
+platform
+    .command('list')
+    .description('List supported platforms and detection status')
+    .action(async () => {
+        await platformCommand.list();
+    });
+
+platform
+    .command('install <name>')
+    .description('Initialize configuration for a specific platform')
+    .action(async (name) => {
+        await platformCommand.install(name);
+    });
+
+platform
+    .command('sync')
+    .description('Sync all detected platforms')
+    .action(async () => {
+        await platformCommand.sync();
     });
 
 program.parse(process.argv);

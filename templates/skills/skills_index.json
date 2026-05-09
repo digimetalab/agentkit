@@ -2,7 +2,7 @@
   {
     "id": "2d-games",
     "path": "templates/skills/game-development/2d-games",
-    "category": "creative-studio",
+    "category": "builder",
     "name": "2d-games",
     "description": "2D game development principles. Sprites, tilemaps, physics, camera.",
     "risk": "unknown",
@@ -11,7 +11,7 @@
   {
     "id": "3d-games",
     "path": "templates/skills/game-development/3d-games",
-    "category": "creative-studio",
+    "category": "builder",
     "name": "3d-games",
     "description": "3D game development principles. Rendering, shaders, physics, cameras.",
     "risk": "unknown",
@@ -20,7 +20,7 @@
   {
     "id": "3d-web-experience",
     "path": "templates/skills/3d-web-experience",
-    "category": "creative-studio",
+    "category": "builder",
     "name": "3d-web-experience",
     "description": "Expert in building 3D experiences for the web - Three.js, React Three Fiber, Spline, WebGL, and interactive 3D scenes. Covers product configurators, 3D portfolios, immersive websites, and bringing depth to web experiences. Use when: 3D website, three.js, WebGL, react three fiber, 3D experience.",
     "risk": "unknown",
@@ -29,7 +29,7 @@
   {
     "id": "ab-test-setup",
     "path": "templates/skills/ab-test-setup",
-    "category": "creative-studio",
+    "category": "strategist",
     "name": "ab-test-setup",
     "description": "Structured guide for setting up A/B tests with mandatory gates for hypothesis, metrics, and execution readiness.",
     "risk": "unknown",
@@ -38,7 +38,7 @@
   {
     "id": "active-directory-attacks",
     "path": "templates/skills/active-directory-attacks",
-    "category": "security-expert",
+    "category": "guardian",
     "name": "Active Directory Attacks",
     "description": "This skill should be used when the user asks to \"attack Active Directory\", \"exploit AD\", \"Kerberoasting\", \"DCSync\", \"pass-the-hash\", \"BloodHound enumeration\", \"Golden Ticket\", \"Silver Ticket\", \"AS-REP roasting\", \"NTLM relay\", or needs guidance on Windows domain penetration testing.",
     "risk": "unknown",
@@ -47,7 +47,7 @@
   {
     "id": "address-github-comments",
     "path": "templates/skills/address-github-comments",
-    "category": "full-stack",
+    "category": "foundation",
     "name": "address-github-comments",
     "description": "Use when you need to address review or issue comments on an open GitHub Pull Request using the gh CLI.",
     "risk": "unknown",
@@ -56,7 +56,7 @@
   {
     "id": "affiliate-marketing",
     "path": "templates/skills/affiliate-marketing",
-    "category": "content-writer",
+    "category": "strategist",
     "name": "Affiliate Marketing",
     "description": "Affiliate program strategy, link optimization, and commission maximization.",
     "risk": "low",
@@ -65,7 +65,7 @@
   {
     "id": "agent-evaluation",
     "path": "templates/skills/agent-evaluation",
-    "category": "ai-engineer",
+    "category": "brain",
     "name": "agent-evaluation",
     "description": "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent.",
     "risk": "unknown",
@@ -74,7 +74,7 @@
   {
     "id": "agent-manager-skill",
     "path": "templates/skills/agent-manager-skill",
-    "category": "ai-engineer",
+    "category": "brain",
     "name": "agent-manager-skill",
     "description": "Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.",
     "risk": "unknown",

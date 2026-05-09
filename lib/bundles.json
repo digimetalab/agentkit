@@ -1,79 +1,27 @@
 {
-  "full-stack": {
-    "title": "💻 Full Stack Developer",
-    "description": "The complete toolkit for building modern applications. Includes Frontend, Backend, DevOps, and Database skills.",
-    "skills": [
-      "concise-planning",
-      "frontend-design",
-      "react-patterns",
-      "backend-dev-guidelines",
-      "api-patterns",
-      "docker-expert",
-      "git-pushing",
-      "systematic-debugging",
-      "test-driven-development"
-    ]
+  "foundation": {
+    "title": "🟢 The Foundation",
+    "description": "Architecture, Standards, & Documentation. Clean Code, Git Workflows, and ADRs.",
+    "skills": ["clean-code", "git-pushing", "documentation-templates", "architecture", "plan-writing"]
   },
-  "security-expert": {
-    "title": "🕵️ Security Expert (Pentester)",
-    "description": "Offensive and defensive security skills. Pentesting, Auditing, Hardening, and Ethical Hacking.",
-    "skills": [
-      "ethical-hacking-methodology",
-      "burp-suite-testing",
-      "api-fuzzing-bug-bounty",
-      "active-directory-attacks",
-      "broken-authentication",
-      "api-security-best-practices",
-      "cloud-penetration-testing",
-      "file-path-traversal",
-      "xss-html-injection"
-    ]
+  "builder": {
+    "title": "🔵 The Builder",
+    "description": "Frontend, Backend, & Infrastructure. React, Node.js, API Patterns, Docker, and Cloud.",
+    "skills": ["react-patterns", "backend-dev-guidelines", "api-patterns", "docker-expert", "database-design"]
   },
-  "content-writer": {
-    "title": "✍️ Content & Marketing",
-    "description": "For writers, marketers, and creators. SEO, Copywriting, Social Media, and Storytelling.",
-    "skills": [
-      "content-creator",
-      "copywriting",
-      "copy-editing",
-      "email-sequence"
-    ]
+  "guardian": {
+    "title": "🔴 The Guardian",
+    "description": "Security, Quality, & Scalability. OWASP, Profiling, and CI/CD DevSecOps.",
+    "skills": ["api-security-best-practices", "performance-profiling", "lint-and-validate", "systematic-debugging", "test-driven-development"]
   },
-  "ai-engineer": {
-    "title": "🤖 AI Engineer",
-    "description": "Build the future with LLMs, Agents, and RAG. Prompt Engineering and Agent Architecture.",
-    "skills": [
-      "prompt-engineering",
-      "ai-agents-architect",
-      "ai-product",
-      "agent-evaluation",
-      "context-window-management"
-    ]
+  "brain": {
+    "title": "🟣 The Brain",
+    "description": "AI, Data, & Orchestration. Prompting, RAG, MCP, and Multi-agent systems.",
+    "skills": ["prompt-engineering", "ai-agents-architect", "rag-implementation", "mcp-builder", "analytics-tracking"]
   },
-  "data-scientist": {
-    "title": "📊 Data Scientist",
-    "description": "Analyze data, visualize insights, and build models. Python, SQL, and Analytics.",
-    "skills": [
-      "python-patterns",
-      "analytics-tracking",
-      "claude-d3js-skill",
-      "ab-test-setup"
-    ]
-  },
-  "startup-founder": {
-    "title": "🦄 Startup Founder",
-    "description": "Build a business. Product Management, Strategy, Pitching, and specific tech for MVPs.",
-    "skills": [
-      "competitor-alternatives"
-    ]
-  },
-  "creative-studio": {
-    "title": "🎨 Creative Studio",
-    "description": "Design, Art, and UI/UX. For digital artists and designers.",
-    "skills": [
-      "frontend-design",
-      "canvas-design",
-      "algorithmic-art"
-    ]
+  "strategist": {
+    "title": "🟠 The Strategist",
+    "description": "Product, Growth, & Content. A/B Testing, SEO, CRO, and Copywriting.",
+    "skills": ["copywriting", "seo-fundamentals", "ab-test-setup", "launch-strategy", "product-manager-toolkit"]
   }
 }

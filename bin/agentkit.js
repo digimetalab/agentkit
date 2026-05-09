@@ -104,8 +104,9 @@ program
 program
     .command('doctor')
     .description('Check AgentKit health and diagnose issues')
-    .action(async () => {
-        await doctorCommand();
+    .option('--fix', 'Automatically repair issues')
+    .action(async (options) => {
+        await doctorCommand(options);
     });
 
 program

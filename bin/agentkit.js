@@ -15,6 +15,7 @@ const statusCommand = require('../lib/commands/status');
 const doctorCommand = require('../lib/commands/doctor');
 const installCommand = require('../lib/commands/install');
 const searchCommand = require('../lib/commands/search');
+const syncCommand = require('../lib/commands/sync');
 
 // Shared banner function - ONLY ONE ASCII ART
 const showBanner = (includeLinks = false) => {
@@ -124,6 +125,14 @@ program
     .description('Search for skills by keyword')
     .action(async (query) => {
         await searchCommand(query);
+    });
+
+program
+    .command('sync')
+    .description('Automatically install bundles based on project stack')
+    .option('--out <path>', 'Output directory', './.agent/skills')
+    .action(async (options) => {
+        await syncCommand(options);
     });
 
 program.parse(process.argv);

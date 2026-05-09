@@ -39,7 +39,7 @@ const showBanner = (includeLinks = false) => {
         chalk.white('The Ultimate AI Skills Manager') + '\n\n' +
         chalk.dim(`Version: v${version}`) + '\n' +
         chalk.dim('Author: @cgyudistira') + '\n' +
-        chalk.dim('Skills: 315+ | Bundles: 7') + '\n' +
+        chalk.dim('Skills: 315+ | Bundles: 5') + '\n' +
         chalk.dim('License: MIT');
 
     if (includeLinks) {

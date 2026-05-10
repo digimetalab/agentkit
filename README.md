@@ -27,6 +27,8 @@
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square" alt="Code Style" /></a>
 </p>
 
+**211 Skills** · **5 Meta-Bundles** · **18 Platforms** · **Zero Lock-in**
+
 </div>
 
 ---
@@ -37,12 +39,12 @@
 - [Why AgentKit?](#-why-agentkit)
 - [Architecture](#-architecture)
 - [Quick Start](#-quick-start)
-- [Skill Bundles (Personas)](#-skill-bundles-personas)
-- [Workflows (Slash Commands)](#-workflows-slash-commands)
+- [Meta-Bundles](#-meta-bundles)
+- [Supported Platforms](#-supported-platforms)
 - [CLI Reference](#-cli-reference)
 - [Programmatic API](#-programmatic-api)
-- [Configuration](#-configuration)
-- [Troubleshooting](#-troubleshooting)
+- [Project Structure](#-project-structure)
+- [Documentation](#-documentation)
 - [Contributing](#-contributing)
 - [License](#-license)
 
@@ -50,11 +52,11 @@
 
 ## 📖 Introduction
 
-**AgentKit** is a standardized infrastructure layer that transforms generic AI code assistants (**Antigravity**, Cursor, Windsurf, Claude Code, Gemini) into specialized **Senior Engineering Partners**. 
+**AgentKit** is a standardized infrastructure layer that transforms generic AI code assistants into specialized **Senior Engineering Partners**. 
 
-Instead of relying on an AI's generalized training data—which often leads to hallucinated libraries, legacy patterns, or security flaws—AgentKit injects **315+ battle-tested engineering skills** directly into your agent's context. 
+Instead of relying on an AI's generalized training data—which often leads to hallucinated libraries, legacy patterns, or security flaws—AgentKit injects **211 battle-tested engineering skills** directly into your agent's context. 
 
-These skills act as **Standard Operating Procedures (SOPs)**, ensuring your AI agent follows strict, production-ready guidelines for everything from React Component architecture to OWASP security audits.
+These skills act as **Standard Operating Procedures (SOPs)**, ensuring your AI agent follows strict, production-ready guidelines for everything from React architecture to OWASP security audits, from RAG pipelines to growth marketing strategies.
 
 ---
 
@@ -64,25 +66,30 @@ These skills act as **Standard Operating Procedures (SOPs)**, ensuring your AI a
 |---|---|---|
 | **Context** | Generic, often outdated training data | **Project-specific context & latest best practices** |
 | **Consistency** | Varies by prompt phrasing | **Deterministically follows engineering standards** |
-| **Complex Tasks** | Often gets lost in multi-step tasks | **Follows strict step-by-step Workflows** |
+| **Complex Tasks** | Often gets lost in multi-step tasks | **Follows strict step-by-step SOPs** |
 | **Security** | Frequently suggests vulnerable code | **Includes automated security auditing skills** |
-| **Onboarding** | Requires manual prompt engineering | **Instant specialized persona setup** |
+| **Onboarding** | Requires manual prompt engineering | **Instant specialized persona via Meta-Bundles** |
+| **Platform** | Locked to one agent | **Works with 18 AI agents simultaneously** |
 
 ---
 
 ## 🏗️ Architecture
 
-AgentKit integrates natively with Antigravity's `.agent` directory.
+AgentKit uses a Universal Platform Architecture (UPA) — a single skill library that syncs across all your AI tools.
 
 ```mermaid
 graph TD
     A[AgentKit CLI] -->|Installs| B[.agent/skills]
+    A -->|Detects stack| F[agentkit sync]
+    A -->|Generates proxies| G[agentkit workflow proxy]
+    
     B -->|Consumed by| C[Antigravity]
-    B -->|Consumed by| D["Other Agents (Cursor/Windsurf)"]
+    B -->|Consumed by| D[Cursor / Windsurf / Claude Code]
+    B -->|Proxied to| E[Gemini / Copilot / Cody / 15+ more]
     
     subgraph "Your Project"
     B
-    E[.agent/agentkit.json] -.->|Config| B
+    H[.agent/agentkit.json] -.->|Config| B
     end
 ```
 
@@ -92,15 +99,11 @@ graph TD
 
 ### 1. Installation
 
-You can use AgentKit without installation via `npx`, or install it globally.
-
-See [Getting Started Guide](docs/GETTING_STARTED.md) for detailed instructions.
-
 ```bash
-# Recommended
+# Recommended — run without install
 npx @digimetalab/agentkit
 
-# Or Global Install
+# Or install globally
 npm install -g @digimetalab/agentkit
 ```
 
@@ -112,135 +115,151 @@ Run the command in your project root:
 agentkit
 ```
 
-The wizard will ask:
-1.  **Select Your Agent**: Choose **Antigravity** (Recommended) or your preferred editor.
-2.  **Select a Persona**: (e.g., `Full Stack Developer`).
-3.  **Confirm**: Skills are downloaded to `.agent/skills` (for Antigravity/Windsurf) or `.cursor/skills`.
+The wizard will:
+1. **Detect your project stack** (React, Node, Python, etc.)
+2. **Select your AI agent** — Antigravity, Cursor, Windsurf, Claude Code, and 14 more.
+3. **Choose a Meta-Bundle** — Foundation, Builder, Guardian, Brain, or Strategist.
+4. **Install skills** to your agent's native directory.
 
-### 3. Usage (Antigravity Example)
+### 3. Auto-Sync (Smart Install)
 
-Open your Antigravity Chat and ask:
+Let AgentKit detect your project stack and install the right skills automatically:
 
-> "I want to create a new user dashboard. Use the `/new-feature` workflow."
+```bash
+agentkit sync
+```
 
-Antigravity will automatically detect the installed skills in `.agent/skills` and strictly follow the **Feature Implementation SOP**.
+This scans your `package.json`, `requirements.txt`, etc. and installs only the relevant skills for your tech stack.
 
----
+### 4. Usage
 
-## 📦 Skill Bundles (Personas)
+Open your AI agent chat and work as usual. Your agent will automatically detect the installed skills and follow the engineering SOPs.
 
-AgentKit allows you to install specific "Personas". Each bundle is a curated collection of skills.
-
-### 💻 Full Stack Developer (`full-stack`)
-*77 Skills* • Transforms your agent into a Senior Web Engineer.
-- **Core**: React Patterns, Node.js Architecture, API Design (REST/GraphQL).
-- **Frontend**: Tailwind Best Practices, State Management (Zustand/Redux), Accessibility (a11y).
-- **Backend**: DB Schema Design (SQL/NoSQL), Caching Strategies (Redis), Auth Flow (JWT/OAuth).
-
-### 🕵️ Security Expert (`security-expert`)
-*46 Skills* • Essential for audits and hardening.
-- **Auditing**: Automated Code Scanning, Dependency Analysis.
-- **Defense**: OWASP Top 10 Mitigation, XSS/CSRF Prevention standards.
-- **Crypto**: Proper Hashing (Argon2/Bcrypt), Encryption Standards (AES-256).
-
-### 🤖 AI Engineer (`ai-engineer`)
-*65 Skills* • For building LLM-powered apps.
-- **Integration**: OpenAI/Anthropic SDKs, LangChain Patterns.
-- **RAG**: Vector DB Setup (Pinecone/Milvus), Embedding Strategies.
-- **Prompting**: Chain-of-Thought Optimization, System Prompt Engineering.
-
-### 🦄 Startup Founder (`startup-founder`)
-*25 Skills* • Product strategies and business logic.
-- **Product**: MVP Scope Definition, User Story Mapping.
-- **Biz**: Pitch Deck Generation, Market Analysis, Unit Economics.
-
-### 📊 Data Scientist (`data-scientist`)
-*18 Skills* • Intelligent Data Analysis & Visualization.
-- **Analysis**: Pandas/NumPy best practices, Data Cleaning pipelines.
-- **Vis**: Matplotlib/Seaborn charting, Interactive Dashboards (Streamlit).
-- **Stats**: Hypothesis Testing, Regression Analysis, Time-series forecasting.
-
-### ✍️ Content Writer (`content-writer`)
-*34 Skills* • Technical Writing & SEO Optimization.
-- **Docs**: API Reference (Swagger/OpenAPI), JSDoc/TypeDoc standards.
-- **Marketing**: SEO-optimized Blog Posts, Release Notes generation.
-- **Copy**: UX Writing, Landing Page conversion optimization.
-
-### 🎨 Creative Studio (`creative-studio`)
-*50 Skills* • Design & Asset Generation.
-- **Assets**: SVG Icon generation, Favicon creation, 2D Game Sprites.
-- **UI/UX**: Color Palette generation, Typography systems, Accessibility compliance.
-- **Motion**: CSS Animations, Framer Motion patterns, Canvas API usage.
+> *Example:* "Build a user dashboard with authentication."
+> 
+> Your agent now follows the React Patterns SOP, API Security Best Practices, and Authentication Flow guidelines — automatically.
 
 ---
 
-## 🔧 Workflows (Slash Commands)
+## 📦 Meta-Bundles
 
-Enhance your agent with **Standard Operating Procedures (SOPs)**. These workflows act as detailed checklists that your agent strictly follows.
+AgentKit organizes 211 skills into **5 Meta-Bundles** — curated collections based on engineering role.
 
-| Command | Workflow | Description |
-|---|---|---|
-| `/new-feature` | **Feature Implementation** | End-to-end guide: Requirements → Design → Impl → Test. |
-| `/code-review` | **Code Review** | rigorous checklist for performance, security, and styles. |
-| `/debug` | **Systematic Debugging** | Step-by-step root cause analysis protocol. |
-| `/refactor` | **Safe Refactoring** | Strategy to improve code without breaking functionality. |
-| `/deploy` | **Deployment Checklist** | CI/CD validation, security checks, and release steps. |
-| `/testing` | **Testing Strategy** | Unit, Integration, and E2E testing guidelines. |
-| `/database-migration` | **DB Ops** | Safer schema changes and data migration plans. |
-| `/git-workflow` | **Git Standards** | Commit hygiene, branching strategies, and PR etiquette. |
+### 🟢 The Foundation (`foundation`)
+*Architecture, Standards, & Documentation*
 
-*Usage Example:*
-> User: "I need to add a login page. Use `/new-feature`."
-> Agent: "Understood. I will follow the feature implementation workflow. Step 1: Requirements..."
+The bedrock skills every project needs. Clean code principles, Git workflows, architectural decision records, and documentation templates.
+
+```bash
+agentkit install --pack foundation
+```
+
+### 🔵 The Builder (`builder`)
+*Frontend, Backend, & Infrastructure — 52 Skills*
+
+Full-stack development SOPs. React/Vue/Svelte patterns, Node.js architecture, API design (REST/GraphQL), Docker containers, database design, Redis caching, serverless deployment, and more.
+
+```bash
+agentkit install --pack builder
+```
+
+### 🔴 The Guardian (`guardian`)
+*Security, Quality, & Reliability — 34 Skills*
+
+Defensive engineering. OWASP Top 10, penetration testing methodology, API security, performance profiling, code quality auditing, TDD workflows, and incident response procedures.
+
+```bash
+agentkit install --pack guardian
+```
+
+### 🟣 The Brain (`brain`)
+*AI, Data, & Orchestration — 58 Skills*
+
+AI engineering stack. Prompt engineering, RAG pipelines, LLM fine-tuning, multi-agent architecture, MCP server building, embeddings, vector search, computer vision, NLP, and ML operations.
+
+```bash
+agentkit install --pack brain
+```
+
+### 🟠 The Strategist (`strategist`)
+*Product, Growth, & Content — 67 Skills*
+
+Business and growth skills. SEO optimization, A/B testing, conversion rate optimization, content strategy, copywriting, paid ads, analytics tracking, ASO, and product management frameworks.
+
+```bash
+agentkit install --pack strategist
+```
+
+---
+
+## 🔌 Supported Platforms
+
+AgentKit supports **18 AI agent platforms** with native integration and automatic proxy generation.
+
+| Agent | Type | Skills Path | Proxy Format |
+|---|---|---|---|
+| **Antigravity** | Native | `.agent/skills/` | `.md` |
+| **Cursor** | IDE | `.cursor/rules/` | `.mdc` |
+| **Windsurf** | IDE | `.agent/rules/` | `.md` |
+| **Claude Code** | CLI | `.claude/skills/` | `.md` |
+| **Gemini CLI** | CLI | `.gemini/skills/` | `.md` |
+| **GitHub Copilot** | IDE | `.github/` | `copilot-instructions.md` |
+| **Sourcegraph Cody** | IDE | `.github/` | `cody-instructions.md` |
+| **Tabnine** | IDE | `.github/` | `tabnine-instructions.md` |
+| **Codex CLI** | CLI | `.codex/skills/` | `.md` |
+| **Trae** | IDE | `.trae/rules/` | `.md` |
+| **Continue.dev** | IDE | `.continue/` | `config.json` |
+| **Cline** | IDE | `.cline/rules/` | `.md` |
+| **Aider** | CLI | `.` | `.aider.conf.yml` |
+| **PearAI** | IDE | `.pearai/rules/` | `.md` |
+| **Goose** | CLI | `.goose/skills/` | `.md` |
+| **Void** | IDE | `.void/rules/` | `.md` |
+| **OpenCode** | IDE | `.opencode/rules/` | `.md` |
+| **Project IDX** | IDE | `.idx/skills/` | `.md` |
+
+Generate proxy files for all your platforms at once:
+
+```bash
+agentkit workflow proxy
+```
 
 ---
 
 ## 🛠️ CLI Reference
 
-Full command-line interface documentation.
-
 | Command | Arguments | Description |
 |---|---|---|
 | `agentkit` | *(none)* | Launch the interactive Setup Wizard. |
-| `list` | `--skills` | List all bundles. Use `--skills` to see all 315+ skills. |
-| `install` | `<bundle>` | Install a specific bundle (e.g., `agentkit install full-stack`). |
-| | `<skill>` | Install a single skill (e.g., `agentkit install react-patterns`). |
-| | `--all` | Install the entire library (315+ skills). |
-| | `--out <path>` | Specify custom output directory. |
-| `search` | `<query>` | Search for skills by keyword (e.g., `react`, `security`). |
-| `doctor` | *(none)* | Diagnose installation issues and environment health. |
-| `status` | *(none)* | Show current installation status and available agents. |
-
----
-
-## 🔌 Compatibility
-
-AgentKit is optimized for **Antigravity**, but supports all major AI editors.
-
-| Agent | Type | Skills Path | Priority |
-|---|---|---|---|
-| **Antigravity** | **Native** | `.agent/skills/` | ⭐⭐⭐ |
-| **Cursor** | IDE | `.cursor/skills/` | ⭐⭐ |
-| **Windsurf** | IDE | `.agent/skills/` | ⭐⭐ |
-| **Claude Code** | CLI | `.claude/skills/` | ⭐ |
-| **Gemini CLI** | CLI | `.gemini/skills/` | ⭐ |
-| **TRAE Code AI** | IDE | `.trae/skills/` | ⭐ |
+| `agentkit list` | `--skills` | List all Meta-Bundles. Use `--skills` to see all 211 skills. |
+| `agentkit install` | `<skill>` | Install a single skill (e.g., `agentkit install react-best-practices`). |
+| | `--pack <bundle>` | Install a Meta-Bundle (`foundation`, `builder`, `guardian`, `brain`, `strategist`). |
+| | `--all` | Install the entire library (211 skills). |
+| | `--out <path>` | Specify custom output directory (default: `./.agent/skills`). |
+| `agentkit search` | `<query>` | Search for skills by keyword (e.g., `react`, `security`, `rag`). |
+| `agentkit sync` | `--out <path>` | Auto-detect project stack and install matching skills. |
+| `agentkit doctor` | `--fix` | Diagnose installation issues. Use `--fix` to auto-repair. |
+| `agentkit status` | *(none)* | Show current installation status and detected agents. |
+| `agentkit platform list` | *(none)* | List all 18 supported platforms and detection status. |
+| `agentkit platform install` | `<name>` | Initialize configuration for a specific platform. |
+| `agentkit platform sync` | *(none)* | Sync skills to all detected platforms. |
+| `agentkit workflow proxy` | *(none)* | Generate platform-specific proxy files for installed skills. |
+| `agentkit about` | *(none)* | Show AgentKit info and credits. |
 
 ---
 
 ## 💻 Programmatic API
 
-You can use AgentKit internally in your own Node.js tools.
+Use AgentKit programmatically in your own Node.js tools.
 
 ```javascript
 const agentkit = require('@digimetalab/agentkit');
 
 // Install specific skills programmatically
-await agentkit.commands.install('react-patterns', { out: './my-skills' });
+await agentkit.commands.install('react-best-practices', { out: './my-skills' });
 
 // List available bundles
 const bundles = await agentkit.utils.getBundles();
-console.log(bundles['full-stack']);
+console.log(bundles['builder']);
 ```
 
 ---
@@ -252,15 +271,16 @@ When installed, AgentKit creates a non-intrusive structure in your project:
 ```
 my-project/
 ├── .agent/                  # AgentKit Core Directory
-│   ├── skills/              # Installed Skills (Markdown files)
-│   │   ├── react-patterns/
-│   │   ├── security-audit/
-│   │   └── ...
-│   ├── workflows/           # Slash Command Workflows
-│   │   ├── new-feature.md
-│   │   └── ...
+│   ├── skills/              # Installed Skills (Markdown SOPs)
+│   │   ├── react-best-practices/
+│   │   ├── api-security-best-practices/
+│   │   ├── prompt-engineering-master/
+│   │   └── ... (211 skills available)
+│   ├── workflows/           # Workflow Proxies
 │   └── agentkit.json        # Configuration & Metadata
-└── .cursorrules             # (If using Cursor) - References .agent/skills
+├── .cursor/rules/           # (If Cursor detected) Auto-generated proxies
+├── .github/                 # (If Copilot/Cody) Instruction files
+└── ...
 ```
 
 ---
@@ -269,13 +289,20 @@ my-project/
 
 Detailed documentation is available in the `docs/` directory:
 
-- [Getting Started](docs/GETTING_STARTED.md) - Installation and first steps.
-- [Skills Catalog](docs/SKILLS_CATALOG.md) - Full list of all 315+ skills.
-- [Workflows Guide](docs/VISUAL_GUIDE.md) - Visual guide to slash commands.
-- [Examples](docs/EXAMPLES.md) - Practical usage scenarios.
-- [FAQ](docs/FAQ.md) - Frequently Asked Questions.
-- [Security Policy](docs/SECURITY.md) - Reporting vulnerabilities.
-- [Changelog](docs/CHANGELOG.md) - Version history.
+| Document | Description |
+|---|---|
+| [Getting Started](docs/GETTING_STARTED.md) | Installation and first steps |
+| [Skills Catalog](docs/SKILLS_CATALOG.md) | Full list of all 211 skills |
+| [Bundles Guide](docs/BUNDLES.md) | Meta-Bundle details and selection guide |
+| [Visual Guide](docs/VISUAL_GUIDE.md) | Visual walkthrough of features |
+| [Skill Anatomy](docs/SKILL_ANATOMY.md) | How to write your own skills |
+| [Examples](docs/EXAMPLES.md) | Practical usage scenarios |
+| [FAQ](docs/FAQ.md) | Frequently Asked Questions |
+| [Quality Bar](docs/QUALITY_BAR.md) | Skill validation standards |
+| [Security Policy](docs/SECURITY.md) | Reporting vulnerabilities |
+| [Security Guardrails](docs/SECURITY_GUARDRAILS.md) | Offensive skill usage policy |
+| [Contributing](docs/CONTRIBUTING.md) | Contribution guidelines |
+| [Changelog](docs/CHANGELOG.md) | Version history |
 
 ---
 
@@ -285,8 +312,8 @@ We welcome contributions! Please see our [Contributing Guide](docs/CONTRIBUTING.
 
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature/amazing-skill`).
-3. Commit your changes.
-4. Push to the branch.
+3. Follow the [Skill Anatomy](docs/SKILL_ANATOMY.md) guide for new skills.
+4. Ensure your skill passes the [Quality Bar](docs/QUALITY_BAR.md).
 5. Open a Pull Request.
 
 ---

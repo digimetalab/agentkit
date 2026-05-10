@@ -1,6 +1,6 @@
 # 📚 AgentKit Skills & Workflows Catalog
 
-This document lists all available skills in `@cgyudistira/agentkit`. Auto-generated.
+This document lists all available skills in `@digimetalab/agentkit`. Auto-generated.
 
 **Total Skills:** 315
 

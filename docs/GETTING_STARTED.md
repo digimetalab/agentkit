@@ -18,7 +18,7 @@ AI Agents (like **Cursor**, **Windsurf**, **Claude Code**) are smart, but they l
 ### 1. Run the Wizard
 
 ```bash
-npx @cgyudistira/agentkit
+npx @digimetalab/agentkit
 ```
 
 This launches an interactive wizard that:

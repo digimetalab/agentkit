@@ -5,7 +5,7 @@ Don't know where to start? Pick a bundle to get a curated set of skills for your
 ## Installation
 
 ```bash
-npx @cgyudistira/agentkit
+npx @digimetalab/agentkit
 # Select your agent, then pick a bundle
 ```
 

@@ -37,17 +37,17 @@ const showBanner = (includeLinks = false) => {
 
     // Info box
     let content =
-        chalk.bold.cyan('🤖 @cgyudistira/agentkit') + '\n' +
+        chalk.bold.cyan('🤖 @digimetalab/agentkit') + '\n' +
         chalk.white('The Ultimate AI Skills Manager') + '\n\n' +
         chalk.dim(`Version: v${version}`) + '\n' +
-        chalk.dim('Author: @cgyudistira') + '\n' +
+        chalk.dim('Author: @digimetalab') + '\n' +
         chalk.dim('Skills: 315+ | Bundles: 5') + '\n' +
         chalk.dim('License: MIT');
 
     if (includeLinks) {
         content += '\n\n' +
-            chalk.cyan('GitHub: ') + chalk.white('github.com/cgyudistira/agentkit') + '\n' +
-            chalk.cyan('NPM: ') + chalk.white('npmjs.com/package/@cgyudistira/agentkit');
+            chalk.cyan('GitHub: ') + chalk.white('github.com/digimetalab/agentkit') + '\n' +
+            chalk.cyan('NPM: ') + chalk.white('npmjs.com/package/@digimetalab/agentkit');
     }
 
     console.log(boxen(content, {

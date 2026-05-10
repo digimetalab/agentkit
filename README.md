@@ -9,20 +9,20 @@
 ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝   ╚═╝   
 </pre>
 
-# @cgyudistira/agentkit
+# @digimetalab/agentkit
 
 **The Enterprise-Grade Skill Manager for AI Code Agents**
 
 <p>
-  <a href="https://www.npmjs.com/package/@cgyudistira/agentkit"><img src="https://img.shields.io/npm/v/@cgyudistira/agentkit.svg?style=flat-square&color=blue" alt="npm version" /></a>
-  <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/@cgyudistira/agentkit?style=flat-square&color=green" alt="Node Version" /></a>
-  <a href="https://www.npmjs.com/package/@cgyudistira/agentkit"><img src="https://img.shields.io/npm/dm/@cgyudistira/agentkit.svg?style=flat-square&color=orange" alt="Downloads" /></a>
-  <a href="https://github.com/cgyudistira/agentkit"><img src="https://img.shields.io/github/repo-size/cgyudistira/agentkit?style=flat-square" alt="Repo Size" /></a>
+  <a href="https://www.npmjs.com/package/@digimetalab/agentkit"><img src="https://img.shields.io/npm/v/@digimetalab/agentkit.svg?style=flat-square&color=blue" alt="npm version" /></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/node/v/@digimetalab/agentkit?style=flat-square&color=green" alt="Node Version" /></a>
+  <a href="https://www.npmjs.com/package/@digimetalab/agentkit"><img src="https://img.shields.io/npm/dm/@digimetalab/agentkit.svg?style=flat-square&color=orange" alt="Downloads" /></a>
+  <a href="https://github.com/digimetalab/agentkit"><img src="https://img.shields.io/github/repo-size/digimetalab/agentkit?style=flat-square" alt="Repo Size" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License" /></a>
 </p>
 
 <p>
-  <a href="https://github.com/cgyudistira/agentkit/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" alt="Maintenance" /></a>
+  <a href="https://github.com/digimetalab/agentkit/graphs/commit-activity"><img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" alt="Maintenance" /></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square" alt="Code Style" /></a>
 </p>
@@ -98,10 +98,10 @@ See [Getting Started Guide](docs/GETTING_STARTED.md) for detailed instructions.
 
 ```bash
 # Recommended
-npx @cgyudistira/agentkit
+npx @digimetalab/agentkit
 
 # Or Global Install
-npm install -g @cgyudistira/agentkit
+npm install -g @digimetalab/agentkit
 ```
 
 ### 2. Interactive Setup
@@ -233,7 +233,7 @@ AgentKit is optimized for **Antigravity**, but supports all major AI editors.
 You can use AgentKit internally in your own Node.js tools.
 
 ```javascript
-const agentkit = require('@cgyudistira/agentkit');
+const agentkit = require('@digimetalab/agentkit');
 
 // Install specific skills programmatically
 await agentkit.commands.install('react-patterns', { out: './my-skills' });
@@ -300,6 +300,6 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 <div align="center">
 
 **Built with ❤️ for the AI Developer Community**  
-*By [cgyudistira](https://github.com/cgyudistira)*
+*By [digimetalab](https://github.com/digimetalab)*
 
 </div>

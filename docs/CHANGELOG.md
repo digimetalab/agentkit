@@ -118,7 +118,7 @@ The following skills are now correctly indexed and visible in the registry:
 
 ### Contributors
 
-* [@cgyudistira](https://github.com/cgyudistira) - PR #23
+* [@digimetalab](https://github.com/digimetalab) - PR #23
 
 ## \[2.12.0] - 2026-01-23 - "Enterprise & UI Power"
 

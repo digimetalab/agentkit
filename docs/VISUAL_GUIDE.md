@@ -181,7 +181,7 @@ code-agents/
 │ Terminal                                │
 ├─────────────────────────────────────────┤
 │ $ git clone https://github.com/        │
-│   cgyudistira/code-agents               │
+│   digimetalab/code-agents               │
 │   .agent/skills                         │
 │                                         │
 │ ✓ Cloning into '.agent/skills'...      │

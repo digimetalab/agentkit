@@ -25,7 +25,7 @@ async function generate() {
     });
 
     let md = '# 📚 AgentKit Skills & Workflows Catalog\n\n';
-    md += 'This document lists all available skills in `@cgyudistira/agentkit`. Auto-generated.\n\n';
+    md += 'This document lists all available skills in `@digimetalab/agentkit`. Auto-generated.\n\n';
     md += `**Total Skills:** ${skills.length}\n\n`;
 
     // Table of Contents

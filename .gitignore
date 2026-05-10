@@ -86,3 +86,14 @@ LOCAL_CONFIG.md
 
 # Local Graphify Data
 graphify-out/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Agent Specific Rules
+GEMINI.md
+CURSOR.md
+.cursorrules

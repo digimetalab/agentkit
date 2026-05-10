@@ -2,12 +2,12 @@
   "foundation": {
     "title": "🟢 The Foundation",
     "description": "Architecture, Standards, & Documentation. Clean Code, Git Workflows, and ADRs.",
-    "skills": ["clean-code", "git-pushing", "documentation-templates", "architecture", "plan-writing"]
+    "skills": ["clean-code", "git-mastery", "documentation-templates", "architecture", "plan-writing"]
   },
   "builder": {
     "title": "🔵 The Builder",
     "description": "Frontend, Backend, & Infrastructure. React, Node.js, API Patterns, Docker, and Cloud.",
-    "skills": ["react-patterns", "backend-dev-guidelines", "api-patterns", "docker-expert", "database-design"]
+    "skills": ["react-best-practices", "backend-dev-guidelines", "api-patterns", "docker-expert", "database-design"]
   },
   "guardian": {
     "title": "🔴 The Guardian",
@@ -22,6 +22,6 @@
   "strategist": {
     "title": "🟠 The Strategist",
     "description": "Product, Growth, & Content. A/B Testing, SEO, CRO, and Copywriting.",
-    "skills": ["copywriting", "seo-fundamentals", "ab-test-setup", "launch-strategy", "product-manager-toolkit"]
+    "skills": ["copywriting", "brand-identity", "seo-fundamentals", "ab-test-setup", "launch-strategy", "product-manager-toolkit"]
   }
 }

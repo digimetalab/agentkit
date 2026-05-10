@@ -1,0 +1,1 @@
+{"nodes": [{"id": "transcribe_captions_whisper_transcription", "label": "Whisper Audio Transcription", "file_type": "rationale", "source_file": "templates/skills/remotion-best-practices/rules/transcribe-captions.md"}], "edges": [], "hyperedges": []}

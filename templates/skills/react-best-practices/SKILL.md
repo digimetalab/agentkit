@@ -1,121 +1,125 @@
 ---
-name: vercel-react-best-practices
-description: React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.
+name: react-best-practices
+description: Opinionated, high-performance development standards for modern React + Next.js applications. Covers App Router, Suspense-first architecture, Vercel performance rules, strict TypeScript, and feature-based organization.
 ---
 
-# Vercel React Best Practices
+# Modern React & Next.js Best Practices
 
-Comprehensive performance optimization guide for React and Next.js applications, maintained by Vercel. Contains 45 rules across 8 categories, prioritized by impact to guide automated refactoring and code generation.
+You are a **senior full-stack engineer** operating under strict architectural and performance standards. This skill defines the **canonical way** to build scalable, predictable, and maintainable applications using React 19+ and Next.js 15+.
 
-## When to Apply
+---
 
-Reference these guidelines when:
-- Writing new React components or Next.js pages
-- Implementing data fetching (client or server-side)
-- Reviewing code for performance issues
-- Refactoring existing React/Next.js code
-- Optimizing bundle size or load times
+## 1. Core Architectural Doctrine
 
-## Rule Categories by Priority
+### 🟢 Suspense Is the Default
+- `useSuspenseQuery` (TanStack) or Server Components are the **primary** data-fetching patterns.
+- ❌ No `isLoading` conditionals or early-return spinners.
+- ✅ Always rely on `<Suspense>` boundaries for loading states.
 
-| Priority | Category | Impact | Prefix |
-|----------|----------|--------|--------|
-| 1 | Eliminating Waterfalls | CRITICAL | `async-` |
-| 2 | Bundle Size Optimization | CRITICAL | `bundle-` |
-| 3 | Server-Side Performance | HIGH | `server-` |
-| 4 | Client-Side Data Fetching | MEDIUM-HIGH | `client-` |
-| 5 | Re-render Optimization | MEDIUM | `rerender-` |
-| 6 | Rendering Performance | MEDIUM | `rendering-` |
-| 7 | JavaScript Performance | LOW-MEDIUM | `js-` |
-| 8 | Advanced Patterns | LOW | `advanced-` |
+### 🟢 Feature-Based Organization
+- Domain logic lives in `src/features/{feature-name}/`.
+- Sub-directories: `api/`, `components/`, `hooks/`, `types/`.
+- Reusable primitives live in `src/components/ui/`.
+- Cross-feature coupling is strictly forbidden.
 
-## Quick Reference
+### 🟢 Strict TypeScript Discipline
+- No `any`. Explicit return types for all functions/hooks.
+- Use `import type` for type-only imports.
+- Types are first-class design artifacts, colocated with features.
 
-### 1. Eliminating Waterfalls (CRITICAL)
+---
 
-- `async-defer-await` - Move await into branches where actually used
-- `async-parallel` - Use Promise.all() for independent operations
-- `async-dependencies` - Use better-all for partial dependencies
-- `async-api-routes` - Start promises early, await late in API routes
-- `async-suspense-boundaries` - Use Suspense to stream content
+## 2. Next.js App Router Mastery
 
-### 2. Bundle Size Optimization (CRITICAL)
+### Server vs. Client Components
+- **Server (Default):** Use for data fetching, layouts, and static content.
+- **Client ('use client'):** Use only for interactivity (state, effects, event handlers).
+- **Strategy:** Prefer Server parent with small, focused Client children.
 
-- `bundle-barrel-imports` - Import directly, avoid barrel files
-- `bundle-dynamic-imports` - Use next/dynamic for heavy components
-- `bundle-defer-third-party` - Load analytics/logging after hydration
-- `bundle-conditional` - Load modules only when feature is activated
-- `bundle-preload` - Preload on hover/focus for perceived speed
+### Data Fetching & Caching
+- **Server Fetching:** Fetch directly in Server Components using `fetch` (with Next.js cache) or DB drivers.
+- **Caching Layers:**
+    - Request: `fetch` options.
+    - Data: `revalidatePath` / `revalidateTag`.
+    - Component: `React.cache()` for per-request deduplication.
+- **Server Actions:** Use for mutations. Validate all inputs with **Zod**. Return typed responses.
 
-### 3. Server-Side Performance (HIGH)
+---
 
-- `server-cache-react` - Use React.cache() for per-request deduplication
-- `server-cache-lru` - Use LRU cache for cross-request caching
-- `server-serialization` - Minimize data passed to client components
-- `server-parallel-fetching` - Restructure components to parallelize fetches
-- `server-after-nonblocking` - Use after() for non-blocking operations
+## 3. Performance Optimization (The Vercel Way)
 
-### 4. Client-Side Data Fetching (MEDIUM-HIGH)
+### Eliminating Waterfalls (CRITICAL)
+- `async-parallel`: Use `Promise.all()` for independent fetches.
+- `async-defer-await`: Move `await` into specific branches where data is used.
+- `async-suspense-boundaries`: Use Suspense to stream heavy content without blocking the page.
 
-- `client-swr-dedup` - Use SWR for automatic request deduplication
-- `client-event-listeners` - Deduplicate global event listeners
+### Bundle Size & Rendering
+- **Lazy Load Anything Heavy:** Use `next/dynamic` or `React.lazy()` for charts, editors, and heavy modals.
+- **Avoid Barrel Files:** Import directly from files to prevent tree-shaking issues.
+- **Rendering:** Use `content-visibility: auto` for long lists. Animate div wrappers, not SVG elements.
 
-### 5. Re-render Optimization (MEDIUM)
+---
 
-- `rerender-defer-reads` - Don't subscribe to state only used in callbacks
-- `rerender-memo` - Extract expensive work into memoized components
-- `rerender-dependencies` - Use primitive dependencies in effects
-- `rerender-derived-state` - Subscribe to derived booleans, not raw values
-- `rerender-functional-setstate` - Use functional setState for stable callbacks
-- `rerender-lazy-state-init` - Pass function to useState for expensive values
-- `rerender-transitions` - Use startTransition for non-urgent updates
+## 4. Hook & Composition Patterns
 
-### 6. Rendering Performance (MEDIUM)
+### Custom Hooks
+- Extract logic into hooks when:
+    - Shared state/logic is needed (e.g., `useLocalStorage`).
+    - Handling complex side effects (e.g., `useDebounce`, `useForm`).
+- **Rule:** Keep hooks at the top level and ensure stable dependencies in `useEffect`.
 
-- `rendering-animate-svg-wrapper` - Animate div wrapper, not SVG element
-- `rendering-content-visibility` - Use content-visibility for long lists
-- `rendering-hoist-jsx` - Extract static JSX outside components
-- `rendering-svg-precision` - Reduce SVG coordinate precision
-- `rendering-hydration-no-flicker` - Use inline script for client-only data
-- `rendering-activity` - Use Activity component for show/hide
-- `rendering-conditional-render` - Use ternary, not && for conditionals
+### Compound Components
+- Use for flexible UI patterns (Tabs, Accordions).
+- Parent provides context; children consume. Use slot-based composition.
 
-### 7. JavaScript Performance (LOW-MEDIUM)
+---
 
-- `js-batch-dom-css` - Group CSS changes via classes or cssText
-- `js-index-maps` - Build Map for repeated lookups
-- `js-cache-property-access` - Cache object properties in loops
-- `js-cache-function-results` - Cache function results in module-level Map
-- `js-cache-storage` - Cache localStorage/sessionStorage reads
-- `js-combine-iterations` - Combine multiple filter/map into one loop
-- `js-length-check-first` - Check array length before expensive comparison
-- `js-early-exit` - Return early from functions
-- `js-hoist-regexp` - Hoist RegExp creation outside loops
-- `js-min-max-loop` - Use loop for min/max instead of sort
-- `js-set-map-lookups` - Use Set/Map for O(1) lookups
-- `js-tosorted-immutable` - Use toSorted() for immutability
+## 5. Testing & Quality Bar
 
-### 8. Advanced Patterns (LOW)
+### Testing Strategy
+- **Unit:** Pure functions and custom hooks.
+- **Integration:** Component behavior using React Testing Library.
+- **E2E:** Critical user flows using Playwright/Cypress.
 
-- `advanced-event-handler-refs` - Store event handlers in refs
-- `advanced-use-latest` - useLatest for stable callback refs
+### Error Handling
+- Use `error.tsx` (Next.js) or Error Boundaries (React) at route/feature levels.
+- Offer "Retry" options and preserve user state where possible.
 
-## How to Use
+---
 
-Read individual rule files for detailed explanations and code examples:
+## 6. Canonical Component Template
 
+```tsx
+import React, { useState, useCallback } from 'react';
+import { useSuspenseQuery } from '@tanstack/react-query';
+import { featureApi } from '../api/featureApi';
+import type { FeatureData } from '../types';
+
+interface MyComponentProps {
+  id: string;
+}
+
+export const MyComponent: React.FC<MyComponentProps> = ({ id }) => {
+  const { data } = useSuspenseQuery<FeatureData>({
+    queryKey: ['feature', id],
+    queryFn: () => featureApi.get(id),
+  });
+
+  const handleAction = useCallback(() => {
+    // Action logic
+  }, []);
+
+  return (
+    <div className="p-4">
+      <h1>{data.title}</h1>
+      <button onClick={handleAction}>Execute</button>
+    </div>
+  );
+};
+
+export default MyComponent;
 ```
-rules/async-parallel.md
-rules/bundle-barrel-imports.md
-rules/_sections.md
-```
 
-Each rule file contains:
-- Brief explanation of why it matters
-- Incorrect code example with explanation
-- Correct code example with explanation
-- Additional context and references
+---
 
-## Full Compiled Document
-
-For the complete guide with all rules expanded: `AGENTS.md`
+> **Mandate:** Performance regressions are bugs. If FFCI (Feasibility Index) is < 6, simplify the design before implementing.

@@ -4,32 +4,40 @@
     "hash": "ab44564ecd5a6ff234c7d450e2340389"
   },
   "D:\\Projects\\vibe\\agentkit\\bin\\agentkit.js": {
-    "mtime": 1770555160.0,
-    "hash": "bb324795b959178b740f69dbc2aa5325"
+    "mtime": 1778336644.5825808,
+    "hash": "00eb23501b592cde7cc80e0e449b4ab8"
   },
   "D:\\Projects\\vibe\\agentkit\\bin\\cli.js": {
     "mtime": 1770545880.0,
     "hash": "48e88e3a42da943912f01d2e2cd9df9b"
+  },
+  "D:\\Projects\\vibe\\agentkit\\lib\\platforms.js": {
+    "mtime": 1778335945.4933474,
+    "hash": "c1a4d24c2a96fa2855f67f86623c51e9"
   },
   "D:\\Projects\\vibe\\agentkit\\lib\\utils.js": {
     "mtime": 1770596520.0,
     "hash": "6ba0740000f1efe2386332b5b6121cd0"
   },
   "D:\\Projects\\vibe\\agentkit\\lib\\commands\\doctor.js": {
-    "mtime": 1770594904.0,
-    "hash": "f033c8806d70c7b2cde7a57565420dd3"
+    "mtime": 1778329099.220872,
+    "hash": "23608a0b473fdb604c86eb14fc8117b3"
   },
   "D:\\Projects\\vibe\\agentkit\\lib\\commands\\init.js": {
     "mtime": 1770592406.0,
     "hash": "89d855be501c93cda185b440caa6b003"
   },
   "D:\\Projects\\vibe\\agentkit\\lib\\commands\\install.js": {
-    "mtime": 1770595156.0,
-    "hash": "65cdcd2dab35ddb4c0ff743c5afc095c"
+    "mtime": 1778329745.165726,
+    "hash": "c734d86ae7f6363eb8303274768ed9f0"
   },
   "D:\\Projects\\vibe\\agentkit\\lib\\commands\\list.js": {
     "mtime": 1770554168.0,
     "hash": "ea2c746824add65cc997abb3343f5ff2"
+  },
+  "D:\\Projects\\vibe\\agentkit\\lib\\commands\\platform.js": {
+    "mtime": 1778336454.6154797,
+    "hash": "3f9c92ab414709b43b0e8a7406f42cc2"
   },
   "D:\\Projects\\vibe\\agentkit\\lib\\commands\\search.js": {
     "mtime": 1770547974.0,
@@ -39,13 +47,33 @@
     "mtime": 1770554044.0,
     "hash": "368a8c88354284a81619028661d91568"
   },
+  "D:\\Projects\\vibe\\agentkit\\lib\\commands\\sync.js": {
+    "mtime": 1778336962.1605327,
+    "hash": "381d1094ecd68527852f5c394f8ed3d5"
+  },
   "D:\\Projects\\vibe\\agentkit\\lib\\commands\\wizard.js": {
     "mtime": 1770595166.0,
     "hash": "f032ccb3806051ce73e6d0f39d4fc7b8"
   },
+  "D:\\Projects\\vibe\\agentkit\\lib\\commands\\workflow.js": {
+    "mtime": 1778336820.4943984,
+    "hash": "94d1f3c7a6d11b78ef03a3d341373593"
+  },
   "D:\\Projects\\vibe\\agentkit\\scripts\\categorize_skills.js": {
     "mtime": 1770556928.0,
     "hash": "bd197ce3f0513cf392ce8b47cd9a7c7c"
+  },
+  "D:\\Projects\\vibe\\agentkit\\scripts\\consolidate_skills.py": {
+    "mtime": 1778334646.245357,
+    "hash": "39ebe2da82e86c7e95badc278258bfb7"
+  },
+  "D:\\Projects\\vibe\\agentkit\\scripts\\consolidate_skills_final.py": {
+    "mtime": 1778334709.2208674,
+    "hash": "8eb1d841577419343e063163603d1a93"
+  },
+  "D:\\Projects\\vibe\\agentkit\\scripts\\consolidate_skills_part2.py": {
+    "mtime": 1778334675.4939258,
+    "hash": "bb44de581d2543a46c49838d89d1a9f1"
   },
   "D:\\Projects\\vibe\\agentkit\\scripts\\generate_bundles.py": {
     "mtime": 1770545880.0,
@@ -78,10 +106,6 @@
   "D:\\Projects\\vibe\\agentkit\\scripts\\verify_bundles.js": {
     "mtime": 1770551340.0,
     "hash": "b97535f51232696bb344eec8b5f3f559"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\algorithmic-art\\templates\\generator_template.js": {
-    "mtime": 1770545880.0,
-    "hash": "949696fa952c33b9ac59bee0bba62a6e"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\api-patterns\\scripts\\api_validator.py": {
     "mtime": 1770545880.0,
@@ -127,18 +151,6 @@
     "mtime": 1770545880.0,
     "hash": "60bf543e89234ef8a73cfd4a80891c8c"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\scripts\\brand_voice_analyzer.py": {
-    "mtime": 1770545882.0,
-    "hash": "0d7776d1f0b211c2acd33403d7098e03"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\scripts\\seo_optimizer.py": {
-    "mtime": 1770545882.0,
-    "hash": "cac89a47eaf90a853591edb65e485847"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\scripts\\schema_validator.py": {
-    "mtime": 1770545882.0,
-    "hash": "2bc362c167358d81f8ca50d2cd06af0d"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\docx-official\\ooxml\\scripts\\pack.py": {
     "mtime": 1770545882.0,
     "hash": "6bc94e0995e368f4c847eb0fb2e99e77"
@@ -182,10 +194,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\docx-official\\scripts\\__init__.py": {
     "mtime": 1770545882.0,
     "hash": "353ad4528fba5ca5e866363de971978c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\geo-fundamentals\\scripts\\geo_checker.py": {
-    "mtime": 1770545882.0,
-    "hash": "e75151ba28a9453d153d7db560e856b3"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\i18n-localization\\scripts\\i18n_checker.py": {
     "mtime": 1770545882.0,
@@ -290,14 +298,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\last30days\\tests\\__init__.py": {
     "mtime": 1770545882.0,
     "hash": "e6776133845577ee4b034d6c2c9eba5b"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\lint-and-validate\\scripts\\lint_runner.py": {
-    "mtime": 1770545882.0,
-    "hash": "57b059735095acc0c1802d54b3070d13"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\lint-and-validate\\scripts\\type_coverage.py": {
-    "mtime": 1770545882.0,
-    "hash": "439538331c87d51f5da3dd62fa11a599"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\loki-mode\\benchmarks\\results\\2026-01-05-00-49-17\\humaneval-solutions\\0.py": {
     "mtime": 1770545882.0,
@@ -1839,14 +1839,6 @@
     "mtime": 1770545882.0,
     "hash": "eee97c9a92b6f0d670f9f151cc029e95"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-manager-toolkit\\scripts\\customer_interview_analyzer.py": {
-    "mtime": 1770545882.0,
-    "hash": "45049b23845a004d29368bf291682d90"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-manager-toolkit\\scripts\\rice_prioritizer.py": {
-    "mtime": 1770545882.0,
-    "hash": "f854819208df6feba56ef363abe18f69"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\remotion-best-practices\\rules\\assets\\charts-bar-chart.tsx": {
     "mtime": 1770545884.0,
     "hash": "f77c314f6d6d2b4034e40c2a73f9cf13"
@@ -1858,30 +1850,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\remotion-best-practices\\rules\\assets\\text-animations-word-highlight.tsx": {
     "mtime": 1770545884.0,
     "hash": "9cde4cb073ac74915a1cb9c74d6d7973"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\scripts\\architecture_diagram_generator.py": {
-    "mtime": 1770545884.0,
-    "hash": "41bdefea5ced2d46d6372011ef006171"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\scripts\\dependency_analyzer.py": {
-    "mtime": 1770545884.0,
-    "hash": "987ca4812cc4ce2c46964b66d8c2e6dd"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\scripts\\project_architect.py": {
-    "mtime": 1770545884.0,
-    "hash": "0d66578622f7dc9598d0b6a153e972c1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\scripts\\code_quality_analyzer.py": {
-    "mtime": 1770545884.0,
-    "hash": "8af519c0e7068ca0ef641acd40e0ba51"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\scripts\\fullstack_scaffolder.py": {
-    "mtime": 1770545884.0,
-    "hash": "720d13cb67926bc9255e72c00000ccd6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\scripts\\project_scaffolder.py": {
-    "mtime": 1770545884.0,
-    "hash": "e34cfe68be0e118cd83a477fe112e943"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\seo-fundamentals\\scripts\\seo_checker.py": {
     "mtime": 1770545884.0,
@@ -1927,10 +1895,6 @@
     "mtime": 1770545884.0,
     "hash": "e79b9df4862e61918398c9dfd58d8b7f"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\condition-based-waiting-example.ts": {
-    "mtime": 1770545884.0,
-    "hash": "b76b763289c6c9662d2c16b87d58b452"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\typescript-expert\\references\\utility-types.ts": {
     "mtime": 1770545884.0,
     "hash": "77d2cd85f01ca8cabf2fa2e7bbe0c6e2"
@@ -1966,6 +1930,10 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\xlsx-official\\recalc.py": {
     "mtime": 1770545884.0,
     "hash": "ebc63f363f00babd7bd3f762dd0787a0"
+  },
+  "D:\\Projects\\vibe\\agentkit\\GEMINI.md": {
+    "mtime": 1778326499.7288773,
+    "hash": "ac9ddc12e630ed6a3b37f70e2efa0f00"
   },
   "D:\\Projects\\vibe\\agentkit\\README.md": {
     "mtime": 1770599062.0,
@@ -2031,6 +1999,22 @@
     "mtime": 1770545880.0,
     "hash": "168f357b70b4eb56134180e16a140d9c"
   },
+  "D:\\Projects\\vibe\\agentkit\\docs\\superpowers\\plans\\2026-05-09-agentic-os-foundation.md": {
+    "mtime": 1778327224.0489285,
+    "hash": "030e9bb9fa16d3b0eb7a4f890ee99ac0"
+  },
+  "D:\\Projects\\vibe\\agentkit\\docs\\superpowers\\plans\\2026-05-09-universal-workflow-proxy.md": {
+    "mtime": 1778335559.761273,
+    "hash": "ecf29540fef578f0d4f691ab76d12b42"
+  },
+  "D:\\Projects\\vibe\\agentkit\\docs\\superpowers\\specs\\2026-05-09-agentic-os-design.md": {
+    "mtime": 1778327012.0124156,
+    "hash": "1099d6dd378bb263006b01aa7b815a07"
+  },
+  "D:\\Projects\\vibe\\agentkit\\docs\\superpowers\\specs\\2026-05-09-universal-workflow-proxy.md": {
+    "mtime": 1778335447.5193465,
+    "hash": "dca255d8e190e82ef0fa1582c3434add"
+  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\README.md": {
     "mtime": 1770545880.0,
     "hash": "52faf7aaf54f2425a07ef69fce460868"
@@ -2038,10 +2022,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\3d-web-experience\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "8deccc5440c1a007b915315e8f9992b7"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ab-test-setup\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "445dd015e8fa476da27b6a321c37e719"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\active-directory-attacks\\SKILL.md": {
     "mtime": 1770545880.0,
@@ -2051,69 +2031,25 @@
     "mtime": 1770545880.0,
     "hash": "cb2089dbfcf4472dd98acc9ee18d5b4b"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\address-github-comments\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "35aa69d7fb2eaacff80f2e0ff9c5f6fa"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\affiliate-marketing\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "2acd6da3ad7ab0169b5d64e3d1f1f364"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\agent-evaluation\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "a78aa24a2465909d4007be1919d21a0d"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\agent-manager-skill\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "e25f8558bdf8fb33dfc424004c8f499e"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\agent-memory-mcp\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "29194ab8b9b62bf1d2712eca6e81fa1f"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\agent-memory-systems\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "dfd8aa016c30ec10e77b4d60494e48a8"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\agent-tool-builder\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "e08d85eb380969c3488c4b23155b32fd"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ai-agents-architect\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "71acc776049e7d914bdc467aa35a31de"
+    "mtime": 1778334652.4323485,
+    "hash": "456f456341e7902aba358d3dff58f849"
+  },
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ai-business-solutions\\SKILL.md": {
+    "mtime": 1778334715.7429886,
+    "hash": "a86836c9b8e0163746d7ebf9ce13b842"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ai-code-generation\\SKILL.md": {
     "mtime": 1770553972.0,
     "hash": "b80ba9bc9ed34b5dbea273b474e781a8"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ai-product\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "fd754a22876806b6c128b4098356f6ea"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ai-safety-alignment\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "e663c8a7185d652da78d994138c8fac9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ai-wrapper-product\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "58dec89d521b0ba027bcfc4f46dad8d1"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\algolia-search\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "46ac790fc5bde04a9c638d2a33fd54cc"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\algorithmic-art\\LICENSE.txt": {
-    "mtime": 1770545880.0,
-    "hash": "0ba5044c64ef53cb0189c9546081e228"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\algorithmic-art\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "f11d383f0629547e91afb1eece7b3996"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\algorithmic-art\\templates\\viewer.html": {
-    "mtime": 1770545880.0,
-    "hash": "ecb8ab7b293bc9e74bef130133260638"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\analytics-tracking\\SKILL.md": {
     "mtime": 1770545880.0,
@@ -2172,8 +2108,8 @@
     "hash": "c0dcf556c803d959235a14b76653bd06"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\api-security-best-practices\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "7627fa58cfa010a7082855fa628f1286"
+    "mtime": 1778333540.074292,
+    "hash": "3b2b87b06cc7cc75bcda6f726fc21ae8"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\app-builder\\agent-coordination.md": {
     "mtime": 1770545880.0,
@@ -2291,17 +2227,9 @@
     "mtime": 1770545880.0,
     "hash": "be16c350dce9432ada96330846b931ef"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\astro-sites\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "bfc89f644dd8414d53f366bc5394b0a4"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\autonomous-agent-patterns\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "42b415d0e0a00de06dd71b114503b3d0"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\autonomous-agents\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "e423fb3634837f2e7875774a192bdc30"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\avalonia-layout-zafiro\\behaviors.md": {
     "mtime": 1770545880.0,
@@ -2371,18 +2299,6 @@
     "mtime": 1770545880.0,
     "hash": "c83ab360542eec6eb3445141865c9dc2"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\aws-penetration-testing\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "fba051be87c0d699e444bc6d7e316ab4"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\aws-penetration-testing\\references\\advanced-aws-pentesting.md": {
-    "mtime": 1770545880.0,
-    "hash": "442b763ff632d05d524f527c33af04af"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\aws-serverless\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "cb1160189b993229e41c13ad62e52496"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\azure-functions\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "935300a2f8209a1e8b2fb9a85ef19253"
@@ -2451,30 +2367,6 @@
     "mtime": 1770545880.0,
     "hash": "7393de8128c7a92d7eb247fa32cdedf6"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\brand-guidelines-anthropic\\LICENSE.txt": {
-    "mtime": 1770545880.0,
-    "hash": "0ba5044c64ef53cb0189c9546081e228"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\brand-guidelines-anthropic\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "102fdf2bc10ece32dd7a14fa75d0f435"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\brand-guidelines-community\\LICENSE.txt": {
-    "mtime": 1770545880.0,
-    "hash": "0ba5044c64ef53cb0189c9546081e228"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\brand-guidelines-community\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "102fdf2bc10ece32dd7a14fa75d0f435"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\brand-identity\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "27cd47882c0a707a1cf710996cc9054a"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\broken-authentication\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "851d191a60dcdb0ea85226f7ab63d2c8"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\browser-automation\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "529790f010855899776bcdfc336716d4"
@@ -2495,129 +2387,13 @@
     "mtime": 1770545880.0,
     "hash": "dac83e535464c83c93cb26a8b17c14fc"
   },
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\business-strategy\\SKILL.md": {
+    "mtime": 1778334652.3912904,
+    "hash": "5b64a330e0de1a9ff60882d368afbbdb"
+  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\busybox-on-windows\\SKILL.md": {
     "mtime": 1770545880.0,
     "hash": "b198b441e4d0d1a0292e88c448cb6549"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\LICENSE.txt": {
-    "mtime": 1770545880.0,
-    "hash": "0ba5044c64ef53cb0189c9546081e228"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "ec1c1087246e1007eb075b8a846e7180"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\ArsenalSC-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "055bd399651c728b58127489b203a607"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\BigShoulders-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "b0ec6188dddb41bf5044b09a7491debc"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Boldonse-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "854766d78df004c93bb082be848947b9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\BricolageGrotesque-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "bd05ea51cf13ec198f9133c1f1f64da0"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\CrimsonPro-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "333ff51d7c275eb19f486ec9abbf21af"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\DMMono-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "b03164427c6f0defd4796fd3f3fb0cf4"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\EricaOne-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "9ad51b36a93965acb98cf1c652c60970"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\GeistMono-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "f07afc995766b888767e16ae8d119901"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Gloock-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "3fcad5713c9b110fddef500d051ac585"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\IBMPlexMono-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "992dcb568e1ffac11f740ee2fa1f028b"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\InstrumentSans-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "030a9e886b4fe2e1720b5db020eca3ad"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Italiana-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "4447ac843a769071814ae5cab23693ec"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\JetBrainsMono-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "d91d325d953444833285afa3b119e0fa"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Jura-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "5aaa855638a6f50828766d1e9c876f4c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\LibreBaskerville-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "585261c25563d76996884860f128bcf1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Lora-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "65d41d82ac358216fb2707da15c1d3fb"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\NationalPark-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "367777dbf9fa1d1ef152fd06b5e08fc6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\NothingYouCouldDo-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "42a7c035f1ddb3fcda7ddf746519b017"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Outfit-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "af9efd1ed592546b9477763b02d684c1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\PixelifySans-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "24ba91e15992e8bbd5a20db081d4d92f"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\PoiretOne-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "3d4cab0d7b79e053c1a40dab710bfc95"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\RedHatMono-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "ef29b840f660a62db32c43d71a7280c0"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Silkscreen-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "6bd21d8f9817d19bb012997a9726d968"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\SmoochSans-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "79208bd389da9f263bc0b3d79aaaa3f6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\Tektur-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "5bf5c4d52bb660a0b29f6ca8d1d5b892"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\WorkSans-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "e5dd6bfc16fb9c9713dce1e02d877c90"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\canvas-design\\canvas-fonts\\YoungSerif-OFL.txt": {
-    "mtime": 1770545880.0,
-    "hash": "016f9e9ecf329086639c0e1b542bf9a6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\case-study-writing\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "af0a36715ee6e462cf52566beade2283"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\cc-skill-backend-patterns\\SKILL.md": {
     "mtime": 1770545880.0,
@@ -2679,14 +2455,6 @@
     "mtime": 1770545880.0,
     "hash": "c429aea1dea8b663343d54f779683969"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\cloud-penetration-testing\\SKILL.md": {
-    "mtime": 1770545880.0,
-    "hash": "f51169b71ad32b90752645b06f2bc3ff"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\cloud-penetration-testing\\references\\advanced-cloud-scripts.md": {
-    "mtime": 1770545880.0,
-    "hash": "2894aa18ca6aa0742011c4fcab9f21ab"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\code-review-checklist\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "67281ca7d1ea61d9d9d39431479146a2"
@@ -2711,33 +2479,9 @@
     "mtime": 1770545882.0,
     "hash": "78e5da9f0a6cf7c54f31a7ab1a04a3c9"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\container-security\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "b64a04e6a3972b646896f44f8b455e08"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "c410c322bbd8b89d910f9e122f5f0bf9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\assets\\content_calendar_template.md": {
-    "mtime": 1770545882.0,
-    "hash": "99ffd513dcf3eca31e078dd37e5cc620"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\references\\brand_guidelines.md": {
-    "mtime": 1770545882.0,
-    "hash": "34b5fb930986f3c9bac208b6c330d68f"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\references\\content_frameworks.md": {
-    "mtime": 1770545882.0,
-    "hash": "d7c03c918a02224c5682013bdee71c11"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creator\\references\\social_media_optimization.md": {
-    "mtime": 1770545882.0,
-    "hash": "ebf4d432cf62f9b1c8aab4367c5fb482"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-repurposing\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "3f273f530ceb0940d4af85a6353c0f14"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\content-creation-mastery\\SKILL.md": {
+    "mtime": 1778334715.7348926,
+    "hash": "a6a1aa9b911546a93913b9630b77327a"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\context-window-management\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -2751,21 +2495,17 @@
     "mtime": 1770545882.0,
     "hash": "b521494888716a4a3213fd6fa05985c6"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\copy-editing\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "e82e025ee30bfd00430f8a5d6defda77"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\copywriting\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "a9a7bb0a9ed6b67b39b07c20e74dc6dc"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\conversion-optimization\\SKILL.md": {
+    "mtime": 1778334652.3677547,
+    "hash": "dd607d42eab18d28c2c458633ea2f35a"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\core-components\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "77daecf72a4054f090189feef3ba5fd2"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\crewai\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "edb53fe874b059dd9b8029b7ae797d34"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\creative-studio-sop\\SKILL.md": {
+    "mtime": 1778334715.7103584,
+    "hash": "9a8b2b5450f180b4656d78329592a506"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\cryptography-impl\\SKILL.md": {
     "mtime": 1770553972.0,
@@ -2775,49 +2515,17 @@
     "mtime": 1770545882.0,
     "hash": "a4659520eaa597f134b12e9b73267569"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\database-selection.md": {
-    "mtime": 1770545882.0,
-    "hash": "ed7294f1aaab6aad3943eaa1af43506b"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\indexing.md": {
-    "mtime": 1770545882.0,
-    "hash": "cb067a0668e6bfd6977bbae58c275eec"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\migrations.md": {
-    "mtime": 1770545882.0,
-    "hash": "4d6e21cc0a5c5f6cb00aebd073824171"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\optimization.md": {
-    "mtime": 1770545882.0,
-    "hash": "c124bf77288084d45579c265fce34d6c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\orm-selection.md": {
-    "mtime": 1770545882.0,
-    "hash": "dee87596f93677bc0d8e86c4b943a83c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\schema-design.md": {
-    "mtime": 1770545882.0,
-    "hash": "ffa4a6a26801fd198e83736aa18cf4fc"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-design\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "82396966532ba83cefcafd1ba2af759b"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\deep-learning-pytorch\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "44fa788add9376619f4bf25020134850"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\deployment-procedures\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "49286b06281f52a4c0a1f3adc07160d7"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\database-mastery\\SKILL.md": {
+    "mtime": 1778334684.0044343,
+    "hash": "2a812b7d2b9637a9498411f7f14895ad"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\design-orchestration\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "c54cc014fe7a98bf569643661d647be9"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\design-systems\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "86fdab66571e6ca74568ddf649a854d0"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\devops-deployment\\SKILL.md": {
+    "mtime": 1778334683.9964137,
+    "hash": "cf2c4bc3da6863330381c241ab565ba4"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\devsecops-pipeline\\SKILL.md": {
     "mtime": 1770553972.0,
@@ -2830,14 +2538,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\dispatching-parallel-agents\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "8a527e80b1227f608bdebfceb4c4954d"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\doc-coauthoring\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "448f6cbc107dea2926a16012c9b994c0"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\docker-expert\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "65a8def9db502dd4e8f7fabda368e8d7"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\documentation-templates\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -2867,17 +2567,9 @@
     "mtime": 1770545882.0,
     "hash": "26ac1d075d6134ac9d30846596137241"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\embeddings-expert\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "4bfda86437254bfe9e384d21832fd63e"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\environment-setup-guide\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "66d3002ace16fc6ea7261b2f549ce15e"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ethical-hacking-methodology\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "003e68174be91bd9a96f77966cea23b6"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\exa-search\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -2886,10 +2578,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\executing-plans\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "3b5cd2936c555d854b703454eda95948"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\experiment-tracking\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "fe77f800163fbe7fc569c3e782ea0084"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\feature-engineering\\SKILL.md": {
     "mtime": 1770553972.0,
@@ -2923,10 +2611,6 @@
     "mtime": 1770545882.0,
     "hash": "c23ccb13046675a31a78181be30462ac"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\form-cro\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "5ad7df428c0097797aebcefe9cf3ffdb"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\free-tool-strategy\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "e739c8a7fd3bd8b24cb716e60bfa53a5"
@@ -2939,121 +2623,17 @@
     "mtime": 1770545882.0,
     "hash": "e6a80e7dd7658012a5c487bfc63ca812"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "18a35c874465304f7246690938744860"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-frameworks\\SKILL.md": {
+    "mtime": 1778334684.018371,
+    "hash": "961f8c1c08bc4ae6bd28c8158c4c7554"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\common-patterns.md": {
-    "mtime": 1770545882.0,
-    "hash": "2e9ad4dcb373879c028f51d3c3508c50"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-mastery\\SKILL.md": {
+    "mtime": 1778334652.4043794,
+    "hash": "00f2bbdea1c337f89fdd76d07433c6e0"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\complete-examples.md": {
-    "mtime": 1770545882.0,
-    "hash": "372eccedbdbdc1b44467d97d6f90de60"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\component-patterns.md": {
-    "mtime": 1770545882.0,
-    "hash": "ae748fddf7c2fefcfe7f682bf45c9085"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\data-fetching.md": {
-    "mtime": 1770545882.0,
-    "hash": "99c3fbf0a390585eaf38b7dd48c84ee4"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\file-organization.md": {
-    "mtime": 1770545882.0,
-    "hash": "d5b73090165ea6ab8bceee66418a5081"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\loading-and-error-states.md": {
-    "mtime": 1770545882.0,
-    "hash": "178ca24b90ead249c20c4638654f9f0c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\performance.md": {
-    "mtime": 1770545882.0,
-    "hash": "95dc69acac220bd03ea2fbb65b966bcf"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\routing-guide.md": {
-    "mtime": 1770545882.0,
-    "hash": "55b26c441a1b7aae1fe32fc197ec607b"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\styling-guide.md": {
-    "mtime": 1770545882.0,
-    "hash": "894d22c8cf7462ace1c766b75f8dc692"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\frontend-dev-guidelines\\resources\\typescript-standards.md": {
-    "mtime": 1770545882.0,
-    "hash": "91f02af69f21776a1be8779c5a7a755f"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\fundraising-strategy\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "20f1ea1ba88868fdc6eec483cf054008"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "479568e34378b84942aa235562ba2a36"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\2d-games\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "79499a47072c20458b12b159d3df3849"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\3d-games\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "4153081fe5edca63b8595d657386ad01"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\game-art\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "ecd673adccca2235be510a599078c450"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\game-audio\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "93b8d2352cf6cf987a917cd3ac131b3c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\game-design\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "2d81c54d055b7064c027bf832f1711b4"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\mobile-games\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "512390bddad6f8fa913a01f6771ba5b6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\multiplayer\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "759f808bce7c2bfe53907c2d45f57368"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\pc-games\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "011ea960aefc83e6c8b4ba1797f4f44d"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\vr-ar\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "9ac818a43e4b6d5563bd14ab8ccc0137"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\game-development\\web-games\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "3deb344f2212fab1d18f6e8a7a6583a2"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\gcp-cloud-run\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "fe878ab2a283831d8e6ee644ea894712"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\geo-fundamentals\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "15bac4fcb8d1b9878cb4a033efc4bb24"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\geospatial-analysis\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "b7b86c65a9e4f63ae881f812038e3c0b"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\ghostwriting\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "9f1befdd1ef99fa0d9cd430e65018f4c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\git-pushing\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "cceadbf5c48f6886be69fd42a17a9984"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\github-workflow-automation\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "1a4c8999086aaf52ff8a001a69600b20"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\git-mastery\\SKILL.md": {
+    "mtime": 1778333844.223386,
+    "hash": "b3dc28a271cafbf52009eed9d539833b"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\graphql\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -3067,13 +2647,13 @@
     "mtime": 1770553972.0,
     "hash": "780b926327c78a57605b66b2a8ca0c07"
   },
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\growth-marketing\\SKILL.md": {
+    "mtime": 1778334652.3776855,
+    "hash": "86a77a6177d4ff444ef8c8ede809fca9"
+  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\html-injection-testing\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "fc5e8db86176b8f7ee979db5d28f29b2"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\htmx-development\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "629c3c31884a08b90b51399376527a8d"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\hubspot-integration\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -3083,13 +2663,13 @@
     "mtime": 1770545882.0,
     "hash": "a328c681c5cd356537135e577af97c16"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\idor-testing\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "76c5d8fe2f4d9283f2a3f4b97ef552df"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\incident-response\\SKILL.md": {
     "mtime": 1770553972.0,
     "hash": "aef13ca3c008242b18d0db6d7c4a5c4c"
+  },
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\infrastructure-security\\SKILL.md": {
+    "mtime": 1778334684.0549042,
+    "hash": "786f91bc03555544871050dacf3fa4a4"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\inngest\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -3147,10 +2727,6 @@
     "mtime": 1770545882.0,
     "hash": "e3f5145991c003b06c363f464cc2ed0e"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\langgraph\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "33fa140a68d0032ea2b35bf28b772a95"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\last30days\\README.md": {
     "mtime": 1770545882.0,
     "hash": "efe466d5c00738c236ecfd87a0f18dd7"
@@ -3175,25 +2751,9 @@
     "mtime": 1770545882.0,
     "hash": "4662003282f883e3492784ce78e223d9"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\launch-strategy\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "482c8411ce43c9f8806a9576b02e6606"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\lint-and-validate\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "45d5f611b1877fb0d2cd24bec31e67c1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\linux-privilege-escalation\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "098d966bb20f34a5f9d23911ce54984b"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\linux-shell-scripting\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "fb790ac1b62f1c4b0c626466a0653424"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\llama-index-expert\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "01544481ec94fd58784820da38a1f96e"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\llm-app-patterns\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -3395,10 +2955,6 @@
     "mtime": 1770545882.0,
     "hash": "4444648b00817627aab29ca0d3db9864"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\marketing-ideas\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "d56fdc20e2db41a8efaabf098af19d69"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\marketing-psychology\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "2cc0708a5c5c5da60c99f670904fbd8f"
@@ -3430,22 +2986,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\mcp-builder\\scripts\\requirements.txt": {
     "mtime": 1770545882.0,
     "hash": "6b5eb2873ee0dd7a24a96d89cced5c38"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\metasploit-framework\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "e02bd6264dc7584c530f26fa45f8b988"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\micro-saas-launcher\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "5fa1b0554616b8a872934d5c4cfd7ea4"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\microservices-design\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "11c6297d99c617b46e84578e0712083e"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\mlops-practices\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "38f9f59c16e9e4f620354fd756137549"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\mobile-design\\decision-trees.md": {
     "mtime": 1770545882.0,
@@ -3507,10 +3047,6 @@
     "mtime": 1770545882.0,
     "hash": "ecf3b22e9985c5f580c4329be3dc7af2"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\motion-graphics\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "13b612c101768816daa1d88dab600966"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\multi-agent-brainstorming\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "efad7443bc016a6db347fa62b4063f1f"
@@ -3519,29 +3055,9 @@
     "mtime": 1770553972.0,
     "hash": "c271e789aa7a74b2a00e890a5b3d8e36"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\neon-postgres\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "90f61e2f4e562b79024c69a6f982e2c9"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\nestjs-expert\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "422f4b589b9035363bc076bd6f24b336"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\network-101\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "08d558d884d0dbca86719123dff11287"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\newsletter-growth\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "47d101dfe96ac7ef3f6e0a3d410475fc"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\nextjs-best-practices\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "604e25ebab4dcb09e3c85e4db81476e8"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\nextjs-patterns\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "c5bf9ca73ab12b51c1d4057d1f5123f0"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\nextjs-supabase-auth\\SKILL.md": {
     "mtime": 1770545882.0,
@@ -3619,29 +3135,9 @@
     "mtime": 1770545882.0,
     "hash": "d02dbb51f373d6b1510dfcd2655bd57d"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\onboarding-cro\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "7ca0a02c80cf7f646810cba1f541a6e5"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\page-cro\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "9c36fc24f15bbd168c43938f766ea333"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\paid-ads\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "c85c7ffd55d5bf4c89e1afaaf4ef119a"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\pandas-mastery\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "9d44a779ad77c92b5ac117ea2df016e1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\parallel-agents\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "b159cdb6a88de53e08825717c7d5138f"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\paywall-upgrade-cro\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "9675510b505a3917d73e6ea82f08d169"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\pdf-official\\forms.md": {
     "mtime": 1770545882.0,
@@ -3719,154 +3215,6 @@
     "mtime": 1770553972.0,
     "hash": "0e1eb148a1c236bd194c757fb255be0d"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\popup-cro\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "235225126ce7c4db027419fbaff1eb17"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\AGENTS.md": {
-    "mtime": 1770545882.0,
-    "hash": "26f0dbd35a6f1bc6ce27f879c9a094dc"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\README.md": {
-    "mtime": 1770545882.0,
-    "hash": "d90a757e4f7855df05a31430819a4503"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "43ba62fde3ee4ed9e5a8e8c2d45a1432"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\advanced-full-text-search.md": {
-    "mtime": 1770545882.0,
-    "hash": "327f8367de51b0982b963f2928184c35"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\advanced-jsonb-indexing.md": {
-    "mtime": 1770545882.0,
-    "hash": "413ba907ff4408d6fd3545f839101ebf"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\conn-idle-timeout.md": {
-    "mtime": 1770545882.0,
-    "hash": "8bbe8b609d5241351672cefc19036db6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\conn-limits.md": {
-    "mtime": 1770545882.0,
-    "hash": "661b3efcf0e35136352b3923ff265d5c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\conn-pooling.md": {
-    "mtime": 1770545882.0,
-    "hash": "c90dab7d0ab47443b41f17d5bc9f04b3"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\conn-prepared-statements.md": {
-    "mtime": 1770545882.0,
-    "hash": "b53eb9dea11d6da338a8b6f9e67a3622"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\data-batch-inserts.md": {
-    "mtime": 1770545882.0,
-    "hash": "6801a3a2d414dfd6a4c79970a37e795d"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\data-n-plus-one.md": {
-    "mtime": 1770545882.0,
-    "hash": "c3ed0702a116d654602120bd5cd7713e"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\data-pagination.md": {
-    "mtime": 1770545882.0,
-    "hash": "59be210a420d34780949ce16d5b4a8d5"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\data-upsert.md": {
-    "mtime": 1770545882.0,
-    "hash": "3ae132bce8b5368e1e4a426d55ca4567"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\lock-advisory.md": {
-    "mtime": 1770545882.0,
-    "hash": "ff943eb307d8b6e12cc6ab2bcb6e2d18"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\lock-deadlock-prevention.md": {
-    "mtime": 1770545882.0,
-    "hash": "685b04bcae3a0720e84f1507d243e959"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\lock-short-transactions.md": {
-    "mtime": 1770545882.0,
-    "hash": "3c947d59e0359f3b236bf2ad1da52c61"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\lock-skip-locked.md": {
-    "mtime": 1770545882.0,
-    "hash": "098d38542f44b656aa55923f06db74c1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\monitor-explain-analyze.md": {
-    "mtime": 1770545882.0,
-    "hash": "1fd19c373a0ff272129edd215a96e3a1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\monitor-pg-stat-statements.md": {
-    "mtime": 1770545882.0,
-    "hash": "2f0cab7f72ad9dfe2cba469aaaacc733"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\monitor-vacuum-analyze.md": {
-    "mtime": 1770545882.0,
-    "hash": "25e738451079707ac54d21364b5538e1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\query-composite-indexes.md": {
-    "mtime": 1770545882.0,
-    "hash": "5017f09940ed04b5b3ad836e426d9084"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\query-covering-indexes.md": {
-    "mtime": 1770545882.0,
-    "hash": "fd05c38771229d97f2d4065d0af0df70"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\query-index-types.md": {
-    "mtime": 1770545882.0,
-    "hash": "64278b0985f8426fa5ab9f9f186555b1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\query-missing-indexes.md": {
-    "mtime": 1770545882.0,
-    "hash": "786767ec677862bad060fc1b4ae0a94f"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\query-partial-indexes.md": {
-    "mtime": 1770545882.0,
-    "hash": "249d8fccca68c332e946b499531f21d8"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\schema-data-types.md": {
-    "mtime": 1770545882.0,
-    "hash": "cd65e34969ebce0bce84f622f5072477"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\schema-foreign-key-indexes.md": {
-    "mtime": 1770545882.0,
-    "hash": "8b99b21a07cadd2d85c6c16f416b5464"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\schema-lowercase-identifiers.md": {
-    "mtime": 1770545882.0,
-    "hash": "632ea53a0da6fe7651e354f3744d998e"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\schema-partitioning.md": {
-    "mtime": 1770545882.0,
-    "hash": "0f2fe9016bf9aa79dd30d7d6a4a03358"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\schema-primary-keys.md": {
-    "mtime": 1770545882.0,
-    "hash": "a732b1a95b6c231d47af14b715c6b9b0"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\security-privileges.md": {
-    "mtime": 1770545882.0,
-    "hash": "e6fbc325f8f3af1cab3e1cb99d9f146a"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\security-rls-basics.md": {
-    "mtime": 1770545882.0,
-    "hash": "82ee8b214f39f78c9e88061b6f890508"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\security-rls-performance.md": {
-    "mtime": 1770545882.0,
-    "hash": "c506171f00f9f350382f2d85ca21dcfd"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\_contributing.md": {
-    "mtime": 1770545882.0,
-    "hash": "bc7359c9c4f1300a5cd89fae26f57544"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\_sections.md": {
-    "mtime": 1770545882.0,
-    "hash": "8547fba7fd9fae3b6be916c6f55b0f62"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\postgres-best-practices\\rules\\_template.md": {
-    "mtime": 1770545882.0,
-    "hash": "74ec7e2bdd6c8ddbb354fcceec038bc2"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\powershell-windows\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "454d0b4995b064c5582ab9e2a53f6d2c"
@@ -3887,77 +3235,41 @@
     "mtime": 1770545882.0,
     "hash": "124faa1f692119086585c9f48b5995ce"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\pricing-strategy\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "f21c564177319c9a68f02070201a2258"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prisma-expert\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "fd6a45b15b4e307ac55903b6c52176e4"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prisma-orm\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "23344f25cc822f807f25421053e38a5c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\privilege-escalation-methods\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "cb0ab78d257d4cbf20d43d72a57f7ff4"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\privilege-escalation\\SKILL.md": {
+    "mtime": 1778334684.061349,
+    "hash": "00e1e9e9740cb16b292e2bca969f76e9"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-launch-copy\\SKILL.md": {
     "mtime": 1770553972.0,
     "hash": "306c58729f4e6195bc33052e558ee37a"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-manager-toolkit\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "9cca3bd16958d03e32f394aa6f519276"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-manager-toolkit\\references\\prd_templates.md": {
-    "mtime": 1770545882.0,
-    "hash": "a08c1c52f462671be32cf7b27468ab54"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-market-fit\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "f48de22bba01ad81b64ee8ee0daf4491"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\product-photography\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "26675c7270180b2b2ec586e449322b9c"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\production-code-audit\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "69086775c377e11e2609ecde0ba6f82b"
+  },
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\professional-writing\\SKILL.md": {
+    "mtime": 1778334715.7041316,
+    "hash": "cd46979790b12d6e55cf50aa105c92db"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\programmatic-seo\\SKILL.md": {
     "mtime": 1770545882.0,
     "hash": "fe78a7a51d0a44d11ed7c08485662339"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prompt-caching\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "c88d558a5d230d2ba53745328708a642"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prompt-engineering-master\\SKILL.md": {
+    "mtime": 1778334652.4128764,
+    "hash": "892d3e800229e73ee91a0211702deaa7"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prompt-engineer\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "b88f8f05cce9b3ec9e270ae5981a824c"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\python-ai-mastery\\SKILL.md": {
+    "mtime": 1778334715.7389493,
+    "hash": "5eb2d8906a87fe4659b43aa73cc7c14e"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prompt-engineering\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "be9e1fdd1f38c13bdb2e7081245bfb0d"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\quality-assurance\\SKILL.md": {
+    "mtime": 1778334684.045194,
+    "hash": "d82bfcd100203713503e26e5050a4657"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\prompt-library\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "da00a47cb9c272357efc278e6cb61714"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\python-patterns\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "ba90843f49cc611fa969ae9133c43fa6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\rag-engineer\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "f0e93063948a7b62e072214ea3a81514"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\rag-implementation\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "1bc0df0c824ff54ae22f793e7e680c3d"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\rag-expert-sop\\SKILL.md": {
+    "mtime": 1778334652.4179187,
+    "hash": "b81950e9ffb7a16fc00cccf099f89603"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\react-best-practices\\AGENTS.md": {
     "mtime": 1770545882.0,
@@ -3968,8 +3280,8 @@
     "hash": "ea0b87a642d12567a80424f12365a934"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\react-best-practices\\SKILL.md": {
-    "mtime": 1770545882.0,
-    "hash": "0bc4d5fe88c181cf13002496f97809ad"
+    "mtime": 1778333526.7778943,
+    "hash": "ffc837301627aef88e8384e38ead4c0c"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\react-best-practices\\rules\\advanced-event-handler-refs.md": {
     "mtime": 1770545882.0,
@@ -4159,10 +3471,6 @@
     "mtime": 1770545882.0,
     "hash": "83904a5210a1031a1a4dfdde0f49c088"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\react-patterns\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "65439dc7905b3c01745613a145df3c45"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\react-ui-patterns\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "e5ff273339b6bcfba98d1aeab4e031a9"
@@ -4171,25 +3479,13 @@
     "mtime": 1770545884.0,
     "hash": "f36dc387659a68814573fc8cb7eca4ee"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\red-team-operations\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "88a964aff59dbaac9e65e2b3c93fb78c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\red-team-tactics\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "b6af18806581de30afd07e7d13b71a03"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\red-team-tools\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "2c9088718cb27c04b8d9f129da48021c"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\red-team-mastery\\SKILL.md": {
+    "mtime": 1778334684.0367737,
+    "hash": "eba19e14a43f61b3f3c2fc3421e912d2"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\redis-caching\\SKILL.md": {
     "mtime": 1770553972.0,
     "hash": "9eac885fd92fc0dae717a880c0867472"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\referral-program\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "14327de709288f4936ba7cc4e2d666bb"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\remotion-best-practices\\SKILL.md": {
     "mtime": 1770545884.0,
@@ -4323,10 +3619,6 @@
     "mtime": 1770553972.0,
     "hash": "3f78ddd9cae88476158afba2289d8f41"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\saas-metrics\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "8da6ec603daad484b20d021eed4025f6"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\salesforce-development\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "e294f3fe95297f171360f8841a80e007"
@@ -4347,37 +3639,9 @@
     "mtime": 1770545884.0,
     "hash": "50eb25112434c623fa6987531f1aa3c3"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "90f70264b1c2444ca810d21d0a50aa54"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\references\\architecture_patterns.md": {
-    "mtime": 1770545884.0,
-    "hash": "22306608b160cd8dad4bcb68a215aac6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\references\\system_design_workflows.md": {
-    "mtime": 1770545884.0,
-    "hash": "693a8a0a71884fc9aec4412460863481"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect\\references\\tech_decision_guide.md": {
-    "mtime": 1770545884.0,
-    "hash": "c25ec74b095e16e810a612980244944f"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "91fbf20f30284ecc6c250523ecb71fc9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\references\\architecture_patterns.md": {
-    "mtime": 1770545884.0,
-    "hash": "474d66853c852e105021701d5e6670f5"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\references\\development_workflows.md": {
-    "mtime": 1770545884.0,
-    "hash": "ba8642c7b9878931bef0eb404bfbc14a"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-fullstack\\references\\tech_stack_guide.md": {
-    "mtime": 1770545884.0,
-    "hash": "2346fc4b1acb4ebf0c1da7c5d84efce6"
+  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\senior-architect-sop\\SKILL.md": {
+    "mtime": 1778334684.025555,
+    "hash": "d7c174623de30be2210092d2d189a2b1"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\seo-audit\\SKILL.md": {
     "mtime": 1770545884.0,
@@ -4390,10 +3654,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\server-management\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "46fc6e1b03c8362d6ba3cd7d706931b5"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\shodan-reconnaissance\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "3e5b3b3baab2185942b657d65060a569"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\shopify-apps\\SKILL.md": {
     "mtime": 1770545884.0,
@@ -4422,10 +3682,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\shopify-development\\scripts\\requirements.txt": {
     "mtime": 1770545884.0,
     "hash": "766ec3568a33a35a745f56c7fa1c3b16"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\signup-flow-cro\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "433cbeed9d021a8a01bb0e07d4e2a4f6"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\skill-creator\\LICENSE.txt": {
     "mtime": 1770545884.0,
@@ -4499,10 +3755,6 @@
     "mtime": 1770553972.0,
     "hash": "cdb21647857894dda4a1546d49d05c84"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\software-architecture\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "6eb678912c4d8f5faacb9147940499dc"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\sql-injection-testing\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "84ef7d5e108a8df88c807840bf86fb80"
@@ -4523,62 +3775,6 @@
     "mtime": 1770545884.0,
     "hash": "546013578d6a7bad6963deb6e5dc274e"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\subagent-driven-development\\code-quality-reviewer-prompt.md": {
-    "mtime": 1770545884.0,
-    "hash": "34fa82e80ea44af6610643b2b2fb47e6"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\subagent-driven-development\\implementer-prompt.md": {
-    "mtime": 1770545884.0,
-    "hash": "d9fb2913c9720dc836b5562407c265a9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\subagent-driven-development\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "53573f5acd0677b09a3267a6ed01a92e"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\subagent-driven-development\\spec-reviewer-prompt.md": {
-    "mtime": 1770545884.0,
-    "hash": "2a26a114e5ea1e199a9baaa41364ef99"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\svelte-development\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "2b6488e63a1d7a21dc9f7742261089ec"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\condition-based-waiting.md": {
-    "mtime": 1770545884.0,
-    "hash": "bb6e3fad746062e8a66703016a6ec38a"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\CREATION-LOG.md": {
-    "mtime": 1770545884.0,
-    "hash": "233e10ab611123ed22988cec5110300c"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\defense-in-depth.md": {
-    "mtime": 1770545884.0,
-    "hash": "c9c65f1cbe6186d828e300c57a90687a"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\root-cause-tracing.md": {
-    "mtime": 1770545884.0,
-    "hash": "79cbd6d02cbf7056e886bb28452accc9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "4eecd2bd5ce68894746de336ec5acbf2"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\test-academic.md": {
-    "mtime": 1770545884.0,
-    "hash": "518b29316fa889342f27a948ecd6a274"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\test-pressure-1.md": {
-    "mtime": 1770545884.0,
-    "hash": "9f7b82ffdfb5193e2453fa823a121d20"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\test-pressure-2.md": {
-    "mtime": 1770545884.0,
-    "hash": "4fe0449a71be1c28e7df333fc384e9cc"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\systematic-debugging\\test-pressure-3.md": {
-    "mtime": 1770545884.0,
-    "hash": "1c8e4e18dc1c5aebd185b39212f9d9a9"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\tailwind-patterns\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "db69539730c28d9c8be3e2b60dd76693"
@@ -4587,17 +3783,9 @@
     "mtime": 1770545884.0,
     "hash": "d3e721d49e50eba749c7d5af926fc86b"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\tdd-workflow\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "ec926241a9625b7cd1f3c1dbde932b8b"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\team-building\\SKILL.md": {
     "mtime": 1770553972.0,
     "hash": "71918127767e76b691ea660dc0026ffa"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\technical-writing\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "06127b1a774b60456a235ad19d4ee6a3"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\telegram-bot-builder\\SKILL.md": {
     "mtime": 1770545884.0,
@@ -4607,21 +3795,9 @@
     "mtime": 1770545884.0,
     "hash": "239489073e62ecf2e943aa3eac8a51e3"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\test-driven-development\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "e2c23834a2b675646bb2d5131eee59f2"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\test-driven-development\\testing-anti-patterns.md": {
-    "mtime": 1770545884.0,
-    "hash": "edfef3a24f0d0653443afc8f6e596d69"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\test-fixing\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "b754156636f14636e43ccfadf7f66308"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\testing-patterns\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "02f62b3b73ac00060276ca103bdb307d"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\theme-factory\\LICENSE.txt": {
     "mtime": 1770545884.0,
@@ -4675,10 +3851,6 @@
     "mtime": 1770553972.0,
     "hash": "2123261c4b75482a7339ef7a1137d06f"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\time-series-analysis\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "5df64744134cb842ff3c40b5cba65a9a"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\top-web-vulnerabilities\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "1a7671458e2e115b949b59877ad06465"
@@ -4707,10 +3879,6 @@
     "mtime": 1770545884.0,
     "hash": "e24ca872656266eae05827a69ac1cb69"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\using-git-worktrees\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "62f650c1c310c178f45f1555b9f54f32"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\using-superpowers\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "80735a5c5f0d629975ab9a82df8d4708"
@@ -4719,21 +3887,9 @@
     "mtime": 1770553972.0,
     "hash": "95057f41184372af38b66fe983d2bffb"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\vercel-deployment\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "96bf16b26bb220285bd3085dc82c2c7b"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\verification-before-completion\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "a5683940c5c34fdd12a12359cc604a65"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\viral-content\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "084dd37b282fd153e0a8eeb3f5ad38e9"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\viral-generator-builder\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "d6867197ca6f0058243343f0bc3df48a"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\voice-agents\\SKILL.md": {
     "mtime": 1770545884.0,
@@ -4746,10 +3902,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\voice-ai-systems\\SKILL.md": {
     "mtime": 1770553972.0,
     "hash": "a76cda4169ad63eb5aef134f082e602d"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\vue-mastery\\SKILL.md": {
-    "mtime": 1770553972.0,
-    "hash": "2466c593239614e840ef64c216a89006"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\vulnerability-scanner\\checklists.md": {
     "mtime": 1770545884.0,
@@ -4787,14 +3939,6 @@
     "mtime": 1770553972.0,
     "hash": "9bce8446f1c0bd7e038beabde03026d2"
   },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\windows-privilege-escalation\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "b0cab57e2d4a138a57dffd6f843363e1"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\wireshark-analysis\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "1e9d5993613e103ccb4b14243bd909a7"
-  },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\wordpress-penetration-testing\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "aeacba612a0204a01aa9e26873351f2b"
@@ -4830,10 +3974,6 @@
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\xlsx-official\\SKILL.md": {
     "mtime": 1770545884.0,
     "hash": "77adec2df17183f12c4228825bc63eba"
-  },
-  "D:\\Projects\\vibe\\agentkit\\templates\\skills\\xss-html-injection\\SKILL.md": {
-    "mtime": 1770545884.0,
-    "hash": "744d9ddd5961fbe59d7ff1c47b1d6460"
   },
   "D:\\Projects\\vibe\\agentkit\\templates\\skills\\youtube-optimization\\SKILL.md": {
     "mtime": 1770553972.0,

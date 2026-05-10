@@ -1,6 +1,6 @@
-# 📦 AgentKit Skill Bundles
+# 📦 AgentKit Meta-Bundles
 
-Don't know where to start? Pick a bundle to get a curated set of skills for your role.
+Don't know where to start? Pick a Meta-Bundle to get a curated set of skills for your role.
 
 ## Installation
 
@@ -11,62 +11,48 @@ npx @digimetalab/agentkit
 
 Or install directly:
 ```bash
-agentkit install full-stack
+agentkit install foundation
 ```
 
 ---
 
-## Available Bundles
+## Available Meta-Bundles
 
-### 💻 Full Stack Developer (77 skills)
-Modern app builder: Frontend, Backend, DevOps, Database.
+### 🟢 The Foundation
+Architecture, Standards, & Documentation. Clean Code, Git Workflows, and ADRs.
 
-**Featured skills:** `nextjs-patterns`, `react-patterns`, `prisma-orm`, `docker-expert`, `git-pushing`
-
----
-
-### 🕵️ Security Expert (46 skills)
-Pentester & Auditor: Offensive security, vulnerability testing.
-
-**Featured skills:** `ethical-hacking-methodology`, `owasp-top-10`, `red-team-operations`, `incident-response`
+**Featured skills:** `clean-code`, `git-mastery`, `documentation-templates`, `architecture`, `plan-writing`
 
 ---
 
-### ✍️ Content & Marketing (34 skills)
-Writer & Creator: SEO, copywriting, social media.
+### 🔵 The Builder
+Frontend, Backend, & Infrastructure. React, Node.js, API Patterns, Docker, and Cloud.
 
-**Featured skills:** `copywriting`, `seo-audit`, `newsletter-growth`, `viral-content`
-
----
-
-### 🤖 AI Engineer (65 skills)
-LLM Architect: Agents, RAG, prompt engineering.
-
-**Featured skills:** `prompt-engineering`, `langchain-advanced`, `fine-tuning-llms`, `agent-evaluation`
+**Featured skills:** `react-best-practices`, `backend-dev-guidelines`, `api-patterns`, `docker-expert`, `database-design`
 
 ---
 
-### 📊 Data Scientist (18 skills)
-Data Analyst: Python, SQL, visualization, ML.
+### 🔴 The Guardian
+Security, Quality, & Scalability. OWASP, Profiling, and CI/CD DevSecOps.
 
-**Featured skills:** `pandas-mastery`, `deep-learning-pytorch`, `mlops-practices`, `feature-engineering`
-
----
-
-### 🦄 Startup Founder (25 skills)
-Entrepreneur: Product, pitch, growth.
-
-**Featured skills:** `product-market-fit`, `fundraising-strategy`, `saas-metrics`, `growth-hacking`
+**Featured skills:** `api-security-best-practices`, `performance-profiling`, `lint-and-validate`, `systematic-debugging`, `test-driven-development`
 
 ---
 
-### 🎨 Creative Studio (50 skills)
-Designer / Artist: UI/UX, motion, branding.
+### 🟣 The Brain
+AI, Data, & Orchestration. Prompting, RAG, MCP, and Multi-agent systems.
 
-**Featured skills:** `design-systems`, `motion-graphics`, `brand-identity`, `ux-research`
+**Featured skills:** `prompt-engineering`, `ai-agents-architect`, `rag-implementation`, `mcp-builder`, `analytics-tracking`
 
 ---
 
-## Total: 315+ Skills
+### 🟠 The Strategist
+Product, Growth, & Content. A/B Testing, SEO, CRO, and Copywriting.
+
+**Featured skills:** `copywriting`, `brand-identity`, `seo-fundamentals`, `ab-test-setup`, `product-manager-toolkit`
+
+---
+
+## Total: 211 Agentic Skills
 
 Run `agentkit list --skills` to see all individual skills.

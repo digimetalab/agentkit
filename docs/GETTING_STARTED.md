@@ -28,15 +28,13 @@ This launches an interactive wizard that:
 
 ### 2. Pick Your Bundle
 
-| Bundle | Skills | Description |
+| Meta-Bundle | Description | Featured Skills |
 |---|---|---|
-| 💻 **full-stack** | 77 | Modern App Builder |
-| 🕵️ **security-expert** | 46 | Pentester & Auditor |
-| ✍️ **content-writer** | 34 | Writer & Creator |
-| 🤖 **ai-engineer** | 65 | LLM Architect |
-| 📊 **data-scientist** | 18 | Data Analyst |
-| 🦄 **startup-founder** | 25 | Entrepreneur |
-| 🎨 **creative-studio** | 50 | Designer / Artist |
+| 🟢 **foundation** | Architecture & Standards | `clean-code`, `architecture` |
+| 🔵 **builder** | Frontend, Backend & Infra | `react-best-practices`, `docker-expert` |
+| 🔴 **guardian** | Security, Quality & Scaling | `api-security-best-practices`, `lint-and-validate` |
+| 🟣 **brain** | AI, Data & Orchestration | `prompt-engineering`, `rag-implementation` |
+| 🟠 **strategist** | Product, Growth & Content | `seo-fundamentals`, `product-manager-toolkit` |
 
 ### 3. Start Using Skills
 
@@ -71,6 +69,7 @@ Once installed, just talk to your AI naturally:
 | **Codex CLI** | `.codex/skills/` |
 | **OpenCode** | `.agent/skills/` |
 | **TRAE Code AI** | `.trae/skills/` |
+| **...and 10 more!** | *(auto-detected)* |
 
 ---
 
@@ -86,8 +85,8 @@ Skills are classified by risk level:
 
 ## ❓ FAQ
 
-**Q: Do I need to install all 315+ skills?**
-A: No! Pick a bundle that matches your role. Install more later with `agentkit install <bundle>`.
+**Q: Do I need to install all 211 skills?**
+A: No! Pick a Meta-Bundle that matches your role. Install more later with `agentkit install <bundle>`.
 
 **Q: Can I make my own skills?**
 A: Yes! See [SKILL_ANATOMY.md](SKILL_ANATOMY.md).

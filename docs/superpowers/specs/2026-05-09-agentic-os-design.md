@@ -10,7 +10,7 @@ The update focuses on three major pillars:
 3. **Reliability (Security & Quality Guard):** Automated, workflow-driven audits to enforce production standards before code is shipped.
 
 ## 3. Structural Transformation: The 5 Meta-Bundles
-To reduce overlap and improve context targeting, the current 315+ skills (previously categorized by "Job Title") will be re-mapped into **5 Capability-Based Meta-Bundles**:
+To reduce overlap and improve context targeting, the current 211 skills (previously categorized by "Job Title") will be re-mapped into **5 Capability-Based Meta-Bundles**:
 
 1. **The Foundation (Architecture, Standards, & Docs):** Clean Code, Git Workflows, ADRs. For project setup and onboarding.
 2. **The Builder (Frontend, Backend, & Infrastructure):** React, API Patterns, DB Design, Docker, Cloud. For core execution.
@@ -50,6 +50,6 @@ New proactive workflows will be added to the library:
 *   **Complexity:** Building an accurate `sync` scanner requires robust heuristics to avoid false positives (e.g., detecting a devDependency vs. a core architectural choice).
 
 ## 8. Success Criteria
-*   The 315+ skills are cleanly categorized into the 5 Meta-Bundles without circular dependencies.
+*   The 211 skills are cleanly categorized into the 5 Meta-Bundles without circular dependencies.
 *   `agentkit sync` correctly identifies the tech stack of a standard React/Node project and installs appropriate skills.
 *   `agentkit doctor --fix` can successfully repair a deliberately corrupted `.agent/skills` folder.

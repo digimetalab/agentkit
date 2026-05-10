@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Implement the Universal Workflow Proxy (UWP) and Multi-Platform Adapter (MPA) to enable native `/slash-commands` for 200+ skills across 17+ AI coding agents.
+**Goal:** Implement the Universal Workflow Proxy (UWP) and Multi-Platform Adapter (MPA) to enable native `/slash-commands` for 211 skills across 18+ AI coding agents.
 
 **Architecture:**
 1.  **Registry Pattern:** Centralize platform-specific metadata (paths, extensions, templates) in a new `lib/platforms.js` module.

@@ -1,7 +1,7 @@
 {
     "name": "@digimetalab/agentkit",
-    "version": "1.0.2",
-    "description": "Koleksi 300+ 'Agentic Skills' untuk AI Agents",
+    "version": "2.0.0",
+    "description": "Koleksi 211 'Agentic Skills' dan Meta-Bundles untuk AI Agents",
     "main": "index.js",
     "bin": {
         "agentkit": "./bin/agentkit.js"
